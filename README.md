@@ -2,6 +2,8 @@
 
 ## Enviroment Setting
 
+- You need to make virtual Environment and set it in the venv
+
 - Python & pip3 Version
     + Python 3.10.3 , pip 22.0.2
     <pre><code>$ sudo apt-get install python3-scrapy python3-dev python3-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
