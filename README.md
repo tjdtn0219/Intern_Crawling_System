@@ -11,5 +11,17 @@
     + Scrapy 2.5.1
     <pre><code>$ pip3 install scrapy </code></pre>
 
+- ChromeDriver
+    <pre><code>$ sudo apt-get update</code></pre>
+    <pre><code>$ sudo apt-get upgrade</code></pre>
+    <pre><code>$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</code></pre>
+    <pre><code>$ sudo apt install ./google-chrome-stable_current_amd64.deb </code></pre>
+    <pre><code>$ google-chrome --version</code></pre>
+    <pre><code>$ wget [google-chrome 버전과일치하는 chromedriver 버전.zip 링크] </code></pre>
+    <pre><code>$ unzip chromedriver_linux64.zip </code></pre>
+    <pre><code>$ cd chromedriver [.git 이 있는 디렉토리] </code></pre>
+
+
 - Selenium
-    <pre><code>pip3 install scrapy</code></pre>
+    <pre><code>$ pip3 install scrapy</code></pre>
+
