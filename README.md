@@ -21,7 +21,9 @@
     <pre><code>$ google-chrome --version</code></pre>
     <pre><code>$ wget [google-chrome 버전과일치하는 chromedriver 버전.zip 링크] </code></pre>
     <pre><code>$ unzip chromedriver_linux64.zip </code></pre>
-    <pre><code>$ cd chromedriver [.git 이 있는 디렉토리] </code></pre>
+    <pre><code>$ cd chromedriver [shell_scripts/]
+    
+    *If you want to change location of chromedriver, move it and modify [CHROME_DRIVER_PATH] in settings.py</code></pre>
 
 
 - Selenium

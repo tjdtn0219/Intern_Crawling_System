@@ -11,7 +11,7 @@ BOT_NAME = 'Crawler'
 
 SPIDER_MODULES = ['Crawler.spiders']
 NEWSPIDER_MODULE = 'Crawler.spiders'
-CHROME_DRIVER_PATH = './chromedriver'
+CHROME_DRIVER_PATH = '/var/lib/jenkins/Projects/LSSWARE_Crawler/chromedriver'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Crawler (+http://www.yourdomain.com)'
