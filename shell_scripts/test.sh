@@ -62,7 +62,8 @@ for i in {1..5}
 do
     ${Scapy_CMD} windows -O ${File_Windows} \
     && \
-    if [ -s "$File_Windows" ]; then 
+    if [ -s "$File_Windows" ]
+    then 
         echo "Alteon : SUCCESS $i"
         break
     fi
