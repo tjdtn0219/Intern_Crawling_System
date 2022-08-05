@@ -20,7 +20,7 @@ class ExtremeSpider(scrapy.Spider):
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)
         driver.get(url)
-        driver.implicitly_wait(3)
+        driver.implicitly_wait(10)
 
         result = dict()
         table_rows = Selector(text=driver.page_source).xpath('//*[@id="DataTables_Table_0"]/tbody/tr').getall()

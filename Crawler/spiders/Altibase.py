@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 class AltibaseSpider(scrapy.Spider):
-    name = 'altibase2'
+    name = 'altibase'
 
     start_urls = [
         'http://support.altibase.com/kr/product'
