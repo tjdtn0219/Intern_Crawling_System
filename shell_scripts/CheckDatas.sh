@@ -18,6 +18,6 @@ while read OS_NAME; do
             echo "${OS_NAME}" >> List_Fail.txt
         fi
     fi
-done < ${Project_Path}OS_List.txt
+done < ${Project_Path}List_OS.txt
 
 
