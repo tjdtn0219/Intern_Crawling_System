@@ -13,6 +13,6 @@ class MySQLpider(scrapy.Spider):
 
         result = dict()
         for row in table_rows:
-            result['Name'] = Selector(text=row).xpath('.//th/@data-sort-value').get()
+            result['Version'] = Selector(text=row).xpath('.//th/@data-sort-value').get()
             result['Date'] = Selector(text=row).xpath('.//td[3]/text()').get().strip()
             yield result

@@ -6,7 +6,9 @@
 import scrapy
 
 
-class CrawlerItem(scrapy.Item):
+class ReleaseItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    version = scrapy.Field()
+    date = scrapy.Field()

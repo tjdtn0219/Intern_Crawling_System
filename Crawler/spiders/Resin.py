@@ -27,6 +27,6 @@ class ResinSpider(scrapy.Spider):
 
         result = dict()
         for item in items:
-            result['Name'] = item
+            result['Version'] = item
             yield result
         driver.quit()

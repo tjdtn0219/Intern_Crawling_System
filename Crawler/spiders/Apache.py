@@ -15,11 +15,11 @@ class ApacheSpider(scrapy.Spider):
         for row in table_rows:
             version = Selector(text=row).xpath('.//th/text()').get()
             if version and version != " ":
-                result['Name'] = version.strip()
+                result['Version'] = version.strip()
             else:
                 version = result['Name'] = Selector(text=row).xpath('.//th/b/text()').get()
                 if version:
-                    result['Name'] = version
+                    result['Version'] = version
             result['Date'] = Selector(text=row).xpath('.//td[1]/text()').get()
 
             if version:

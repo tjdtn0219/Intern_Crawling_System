@@ -1,14 +1,14 @@
 [
-{"Name": "9.0", "Date": "7 June 2022"},
-{"Name": "8.5.5", "Date": "25 July 2022"},
-{"Name": "8.5 Liberty Profile", "Date": "June 15, 2012"},
-{"Name": "8.5", "Date": "June 15, 2012"},
-{"Name": "8.0", "Date": "June 17, 2011"},
-{"Name": "7.0", "Date": "October 17, 2008"},
-{"Name": "6.1", "Date": "June 30, 2006"},
-{"Name": "6.0", "Date": "December 31, 2004"},
-{"Name": "5.1", "Date": "January 16, 2004"},
-{"Name": "5.0", "Date": "January 3, 2003"},
-{"Name": "4.0", "Date": "August 15, 2001"},
-{"Name": "3.5", "Date": "August 31, 2000"}
+{"Version": "9.0", "Date": "7 June 2022"},
+{"Version": "8.5.5", "Date": "25 July 2022"},
+{"Version": "8.5 Liberty Profile", "Date": "June 15, 2012"},
+{"Version": "8.5", "Date": "June 15, 2012"},
+{"Version": "8.0", "Date": "June 17, 2011"},
+{"Version": "7.0", "Date": "October 17, 2008"},
+{"Version": "6.1", "Date": "June 30, 2006"},
+{"Version": "6.0", "Date": "December 31, 2004"},
+{"Version": "5.1", "Date": "January 16, 2004"},
+{"Version": "5.0", "Date": "January 3, 2003"},
+{"Version": "4.0", "Date": "August 15, 2001"},
+{"Version": "3.5", "Date": "August 31, 2000"}
 ]

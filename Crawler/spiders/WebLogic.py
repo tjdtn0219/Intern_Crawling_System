@@ -17,7 +17,7 @@ class WebLogicSpider(scrapy.Spider):
             item_list = re.split(r'-', item)
 
             if len(item_list) == 2:
-                result['Name'] = item_list[0].strip()
+                result['Version'] = item_list[0].strip()
                 if len(item_list[1].strip()) < 20:
                     result['Date'] = item_list[1].strip()
                 else: result['Date'] = ""

@@ -32,7 +32,7 @@ class JBOSS_Spider(scrapy.Spider):
             version = Selector(text=item).xpath('.//h3/text()').get()
             date = Selector(text=item).xpath('.//div[1]/div[3]/span/text()').get()
             if "EAP" not in version:
-                result['Name'] = version
+                result['Version'] = version
                 result['Date'] = date
                 yield result
             

@@ -1,12 +1,12 @@
 [
-{"Name": "29.5.x"},
-{"Name": "30.0.x"},
-{"Name": "30.1.x"},
-{"Name": "30.2.x"},
-{"Name": "30.5.x"},
-{"Name": "31.0.x"},
-{"Name": "32.0.x"},
-{"Name": "32.1.x"},
-{"Name": "32.2.x"},
-{"Name": "32.4.x"}
+{"Version": "29.5.x"},
+{"Version": "30.0.x"},
+{"Version": "30.1.x"},
+{"Version": "30.2.x"},
+{"Version": "30.5.x"},
+{"Version": "31.0.x"},
+{"Version": "32.0.x"},
+{"Version": "32.1.x"},
+{"Version": "32.2.x"},
+{"Version": "32.4.x"}
 ]

@@ -18,7 +18,7 @@ while read OS_NAME; do
         break
     else
         echo ${OS_NAME}
-        for i in {1..50}; do
+        for i in {1..30}; do
         timeout 2m bash -c "${Scapy_CMD} ${OS_NAME} -O ${File_path}${OS_NAME}.json" \
         && \
         if [ -s "${OS_NAME}.json" ]
@@ -32,7 +32,7 @@ while read OS_NAME; do
         fi
     done
     fi
-done < ${Project_Path}OS_List.txt\
+done < ${Project_Path}$1\
 && \
 echo "|=============================================================================|"
 echo "|=============================================================================|"
@@ -46,7 +46,7 @@ then
         echo "|==============${OS_NAME} : Please Check if ${OS_NAME}.json file has datas."
     done
 else
-    echo "|==========================ALL SPIDERS SCRAPY SUCCESSED!=======================|"
+    echo "|=========================ALL SPIDERS SCRAPY SUCCESSED!=======================|"
 fi
 echo "|=============================================================================|"
 echo "|=============================================================================|"

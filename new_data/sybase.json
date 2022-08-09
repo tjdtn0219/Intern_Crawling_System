@@ -1,7 +1,7 @@
 [
-{"Name": "SAP Adaptive Server Enterprise 16.0 (Japanese)"},
-{"Name": "Adaptive Server Enterprise 15.7 ESD #2 (Japanese)"},
-{"Name": "Adaptive Server Enterprise 15.7 (Japanese)"},
-{"Name": "Adaptive Server Enterprise 15.5 (Japanese)"},
-{"Name": "Adaptive Server Enterprise 12.5.4 (Japanese)"}
+{"Version": "SAP Adaptive Server Enterprise 16.0 (Japanese)"},
+{"Version": "Adaptive Server Enterprise 15.7 ESD #2 (Japanese)"},
+{"Version": "Adaptive Server Enterprise 15.7 (Japanese)"},
+{"Version": "Adaptive Server Enterprise 15.5 (Japanese)"},
+{"Version": "Adaptive Server Enterprise 12.5.4 (Japanese)"}
 ]

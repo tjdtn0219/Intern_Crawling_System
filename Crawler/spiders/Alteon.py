@@ -32,7 +32,7 @@ class AvayaSpider(scrapy.Spider):
         for item in items:
             version_value = re.sub(r'[^0-9.x]', '', str(item))
             if version_value:
-                result['Name'] = item
+                result['Version'] = item
                 yield result
 
         driver.quit()

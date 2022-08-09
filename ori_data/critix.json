@@ -1,7 +1,7 @@
 [
-{"Name": "Citrix ADC Release 13.1"},
-{"Name": "Citrix ADC Release 13.0"},
-{"Name": "NetScaler ADC Release 12.1"},
-{"Name": "Citrix ADC Release 12.1-NDcPP"},
-{"Name": "Citrix ADC Release 12.1-FIPS"}
+{"Version": "Citrix ADC Release 13.1"},
+{"Version": "Citrix ADC Release 13.0"},
+{"Version": "NetScaler ADC Release 12.1"},
+{"Version": "Citrix ADC Release 12.1-NDcPP"},
+{"Version": "Citrix ADC Release 12.1-FIPS"}
 ]

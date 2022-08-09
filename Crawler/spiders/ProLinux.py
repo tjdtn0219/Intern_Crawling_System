@@ -14,6 +14,6 @@ class ProLinuxSpider(scrapy.Spider):
         for item in items:
             version = Selector(text=item).xpath('.//div/table/thead/tr/th/text()').get().strip()
             if version:
-                result['Name'] = version
+                result['Version'] = version
                 yield result
            

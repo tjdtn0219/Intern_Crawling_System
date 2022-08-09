@@ -22,7 +22,7 @@ class WebLogicSpider(scrapy.Spider):
 
         if len(version_list) == len(date_list):
             for i in range(len(version_list)):
-                result['Name'] = version_list[i].strip()
+                result['Version'] = version_list[i].strip()
                 result['Date'] = date_list[i].strip()
                 yield result
                 

@@ -16,7 +16,11 @@ class OracleLinuxSpider(scrapy.Spider):
         for item in items:
             version = Selector(text=item).xpath('.//td[1]/@data-sort-value').get()
             if version:
-                result['Name'] = version.strip()
-                result['Date'] = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+                result['Version'] = version.strip()
+                date = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+                date_split = date.split(" ")
+                if len(date_split) > 2:
+                    date = date_split[0] + " " + date_split[1]
+                result['Date'] = date
                 yield result
             

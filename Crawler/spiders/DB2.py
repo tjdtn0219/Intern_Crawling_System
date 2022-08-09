@@ -14,5 +14,5 @@ class DB2Spider(scrapy.Spider):
         result = dict()
         for item in items:
             version = Selector(text=item).xpath('.//li/text()').get().strip()
-            result['Name'] = version.strip()
+            result['Version'] = version.strip()
             yield result

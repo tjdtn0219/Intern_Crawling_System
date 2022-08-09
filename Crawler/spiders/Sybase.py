@@ -30,7 +30,7 @@ class SybaseSpider(scrapy.Spider):
         for item in items:
             version = scrapy.Selector(text=item).xpath('.//td/b/a/text()').get().strip()
             if "Japanese" in version and "Adaptive Server Enterprise" in version:
-                result['Name'] = version
+                result['Version'] = version
                 yield result
 
         driver.quit()

@@ -13,6 +13,6 @@ class IIS_Spider(scrapy.Spider):
         result = dict()
 
         for row in table_rows:
-            result['Name'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
+            result['Version'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
             result['Date'] = Selector(text=row).xpath('.//td[2]/local-time/text()').get().strip().split('T')[0]
             yield result

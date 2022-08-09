@@ -16,5 +16,5 @@ class WebToBSpider(scrapy.Spider):
         for table in tables:
             items = Selector(text=table).xpath('.//table/tbody/tr/th/ul/li[3]/text()').getall()
             for item in items:
-                result['Name'] = item.strip()
+                result['Version'] = item.strip()
                 yield result

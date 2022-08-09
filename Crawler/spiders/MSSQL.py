@@ -15,8 +15,8 @@ class OracleLinuxSpider(scrapy.Spider):
         for item in items:
             version = Selector(text=item).xpath('.//td[1]/text()').get().strip()
             if version != "":
-                result['Name'] = version.strip()
+                result['Version'] = version.strip()
                 yield result
             else:
-                result['Name'] = Selector(text=item).xpath('.//td[1]/a/text()').get().strip()
+                result['Version'] = Selector(text=item).xpath('.//td[1]/a/text()').get().strip()
                 yield result

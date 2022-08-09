@@ -1,11 +1,11 @@
 [
-{"Name": "Stinger - 8.1, 8.2"},
-{"Name": "Viper - 9.1."},
-{"Name": "Viper 2 - 9.5"},
-{"Name": "Cobra - 9.7"},
-{"Name": "Galileo - 10.1"},
-{"Name": "Kepler - 10.5"},
-{"Name": "Cancun - 10.5.4"},
-{"Name": "Nebula - 11.5.4"},
-{"Name": "Andromeda - 12?"}
+{"Version": "Stinger - 8.1, 8.2"},
+{"Version": "Viper - 9.1."},
+{"Version": "Viper 2 - 9.5"},
+{"Version": "Cobra - 9.7"},
+{"Version": "Galileo - 10.1"},
+{"Version": "Kepler - 10.5"},
+{"Version": "Cancun - 10.5.4"},
+{"Version": "Nebula - 11.5.4"},
+{"Version": "Andromeda - 12?"}
 ]

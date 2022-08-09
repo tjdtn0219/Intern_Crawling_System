@@ -1,8 +1,9 @@
 [
-{"Version": "5L", "Date": "May\u00a04, 2001"},
-{"Version": "5.3", "Date": "August\u00a013, 2004"},
-{"Version": "6.1", "Date": "November\u00a09, 2007"},
-{"Version": "7.1", "Date": "September\u00a010, 2010"},
-{"Version": "7.2", "Date": "December\u00a01, 2015"},
-{"Version": "7.3", "Date": "December\u00a010, 2021"}
+{"Version": "5L", "Date": "May 4, 2001"},
+{"Version": "5.3", "Date": "August 13, 2004"},
+{"Version": "6.1", "Date": "November 9, 2007"},
+{"Version": "7.1", "Date": "September 10, 2010"},
+{"Version": "7.2", "Date": "December 1, 2015"},
+{"Version": "7.3", "Date": "December 10, 2021"},
+{"Version": "7.4", "Date": "December 12, 2021"}
 ]

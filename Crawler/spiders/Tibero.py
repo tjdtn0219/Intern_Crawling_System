@@ -13,5 +13,5 @@ class TiberoSpider(scrapy.Spider):
         result = dict()
         for item in items:
             if "Tibero" in item and "Studio" not in item:
-                result['Name'] = item.strip()
+                result['Version'] = item.strip()
                 yield result

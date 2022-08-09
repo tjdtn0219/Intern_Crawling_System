@@ -3,6 +3,7 @@ from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import re
 
 class ExtremeSpider(scrapy.Spider):
     name = 'extreme'
@@ -28,7 +29,8 @@ class ExtremeSpider(scrapy.Spider):
         for row in table_rows:
             if Selector(text=row).xpath('.//td[1]/text()').get():
                 #result['Date'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
-                result['Name'] = Selector(text=row).xpath('.//td[2]/a/text()').get().strip()
+                name = Selector(text=row).xpath('.//td[2]/a/text()').get().strip()
+                result['Version'] = name.replace("Release Notes", "").strip()
                 result['Date'] = Selector(text=row).xpath('.//td[3]/text()').get().strip()
                 yield result
 

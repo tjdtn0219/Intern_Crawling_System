@@ -16,13 +16,19 @@ class OracleLinuxSpider(scrapy.Spider):
         for item in items:
             rspan=Selector(text=item).xpath('.//td[1]/@rowspan').get()
             if rspan:
-                result['Name'] = Selector(text=item).xpath('.//th[1]/text()').get().strip()
-                result['Date'] = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+                result['Version'] = Selector(text=item).xpath('.//th[1]/text()').get().strip()
+                date = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+                if date == "?":
+                    date = Selector(text=item).xpath('.//td[4]/text()').get().strip()
+                result['Date'] = date
                 yield result
             else:
-                version = result['Name'] = Selector(text=item).xpath('.//th[1]/text()').get()
+                version = result['Version'] = Selector(text=item).xpath('.//th[1]/text()').get()
                 if version:
-                    result['Name'] = version.strip()
-                    result['Date'] = Selector(text=item).xpath('.//td[2]/text()').get().strip()
+                    result['Version'] = version.strip()
+                    date = Selector(text=item).xpath('.//td[2]/text()').get().strip()
+                    if date == "?":
+                        date = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+                    result['Date'] = date
                     yield result
         

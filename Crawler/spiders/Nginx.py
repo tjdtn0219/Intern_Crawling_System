@@ -14,5 +14,5 @@ class NginxSpider(scrapy.Spider):
         result = dict()
 
         for item in items:
-            result['Name'] = item.strip()
+            result['Version'] = item.strip()
             yield result

@@ -13,6 +13,6 @@ class CUBRIDSpider(scrapy.Spider):
 
         result=dict()
         for row in table_rows:
-            result['Name'] = Selector(text=row).xpath('.//th/text()').get().strip()
+            result['Version'] = Selector(text=row).xpath('.//th/text()').get().strip()
             result['Date'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
             yield result

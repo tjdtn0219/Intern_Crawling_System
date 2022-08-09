@@ -30,7 +30,7 @@ class SybaseSpider(scrapy.Spider):
         for item in items:
             version = scrapy.Selector(text=item).xpath('.//td/b/a/text()').get().strip()
             if "Japanese" in version and "Sybase IQ" in version:
-                result['Name'] = version
+                result['Version'] = version.replace("Japanese", "").strip("() -")
                 yield result
 
         driver.quit()

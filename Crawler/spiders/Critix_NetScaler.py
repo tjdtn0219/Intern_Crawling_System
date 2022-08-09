@@ -15,7 +15,7 @@ class Critix_NetScalerSpider(scrapy.Spider):
         for item in items:
             string = item.strip()
             if string:
-                result['Name'] = string
+                result['Version'] = string
                 yield result
 
                 

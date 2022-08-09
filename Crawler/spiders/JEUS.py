@@ -18,5 +18,5 @@ class JEUSSpider(scrapy.Spider):
             items = Selector(text=table).xpath('.//table/tbody/tr/th/ul/li/text()').getall()
             for item in items:
                 if item.strip():
-                    result['Name'] = item.strip()
+                    result['Version'] = item.strip()
                     yield result

@@ -13,12 +13,12 @@ class PostgresSQLSpider(scrapy.Spider):
 
         result=dict()
         for row in table_rows:
-            result['Name'] = Selector(text=row).xpath('.//th/text()').get().strip()
+            result['Version'] = Selector(text=row).xpath('.//th/text()').get().strip()
             date = Selector(text=row).xpath('.//td[1]/text()').get().strip()
             if "\u2014" not in date:
                 result['Date'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
             else:
-                result['Date'] = ""
+                result['Date'] = Selector(text=row).xpath('.//td[3]/text()').get().strip()
             # result['Name'] = Selector(text=row).xpath('.//td[2]/@data-sort-value').get().strip()
             # result['Date'] = Selector(text=row).xpath('.//td[3]/text()').get().strip() // latest version
             yield result

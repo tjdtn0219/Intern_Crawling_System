@@ -22,6 +22,6 @@ class InformixSpider(scrapy.Spider):
             if int(version.split('.')[0]) > 10:
                 print(name + " "+version)
                 print(date)
-                result['Name'] = name + " " + version
+                result['Version'] = name + " " + version
                 result['Date'] = date
                 yield result

@@ -14,6 +14,6 @@ class Cisco(scrapy.Spider):
         for item in items:
             # print(item.strip())
             if item.strip():
-                result['Name']=item.strip()
+                result['Version']=item.strip()
                 yield result
         

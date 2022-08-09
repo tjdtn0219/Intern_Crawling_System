@@ -18,6 +18,6 @@ class TomcatSpider(scrapy.Spider):
         for row in table_rows:
             version = Selector(text=row).xpath('.//td[1]/@data-sort-value').get().strip()
             date = Selector(text=row).xpath('.//td[5]/text()').get().strip()
-            result['Name'] = version
+            result['Version'] = version
             result['Date'] = date
             yield result

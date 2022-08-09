@@ -16,7 +16,7 @@ class AvayaSpider(scrapy.Spider):
             for value in values:
                 value = value.strip()
                 strings = value.split(' ', maxsplit=1)
-                result['Name'] = strings[0].strip()
+                result['Version'] = strings[0].strip()
                 result['Date'] = strings[1].strip("() ")
                 yield result
 

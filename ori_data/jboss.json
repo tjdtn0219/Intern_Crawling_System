@@ -1,14 +1,14 @@
 [
-{"Name": "7.4.0", "Date": "July 21, 2021"},
-{"Name": "7.4 Beta", "Date": "March 10, 2021"},
-{"Name": "7.3.0", "Date": "March 24, 2020"},
-{"Name": "7.3 Beta", "Date": "August 26, 2019"},
-{"Name": "7.2.0", "Date": "January 22, 2019"},
-{"Name": "7.2.0 Beta", "Date": "August 08, 2018"},
-{"Name": "7.1.0", "Date": "December 03, 2017"},
-{"Name": "7.0.0", "Date": "May 10, 2016"},
-{"Name": "6.4.0", "Date": "April 15, 2015"},
-{"Name": "6.3.0", "Date": "August 05, 2014"},
-{"Name": "6.1.0", "Date": "March 07, 2014"},
-{"Name": "6.2.0", "Date": "March 07, 2014"}
+{"Version": "7.4.0", "Date": "July 21, 2021"},
+{"Version": "7.4 Beta", "Date": "March 10, 2021"},
+{"Version": "7.3.0", "Date": "March 24, 2020"},
+{"Version": "7.3 Beta", "Date": "August 26, 2019"},
+{"Version": "7.2.0", "Date": "January 22, 2019"},
+{"Version": "7.2.0 Beta", "Date": "August 08, 2018"},
+{"Version": "7.1.0", "Date": "December 03, 2017"},
+{"Version": "7.0.0", "Date": "May 10, 2016"},
+{"Version": "6.4.0", "Date": "April 15, 2015"},
+{"Version": "6.3.0", "Date": "August 05, 2014"},
+{"Version": "6.1.0", "Date": "March 07, 2014"},
+{"Version": "6.2.0", "Date": "March 07, 2014"}
 ]

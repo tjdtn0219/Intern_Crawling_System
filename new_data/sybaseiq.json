@@ -1,7 +1,7 @@
 [
-{"Name": "SAP Sybase IQ 16.0 SP03 (Japanese)"},
-{"Name": "Sybase IQ 15.4 (Japanese)"},
-{"Name": "Sybase IQ 15.3 (Japanese)"},
-{"Name": "Sybase IQ 15.2 - (Japanese)"},
-{"Name": "Sybase IQ 15.1 - Japanese"}
+{"Version": "SAP Sybase IQ 16.0 SP03"},
+{"Version": "Sybase IQ 15.4"},
+{"Version": "Sybase IQ 15.3"},
+{"Version": "Sybase IQ 15.2"},
+{"Version": "Sybase IQ 15.1"}
 ]

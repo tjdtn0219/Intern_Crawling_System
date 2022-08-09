@@ -16,5 +16,5 @@ class HPUXSpider(scrapy.Spider):
             if Selector(text=item).xpath('.//td').get():
                 result['Version'] = Selector(text=item).xpath('.//td/@data-sort-value').get().strip()
                 # if Selector(text=item.xpath('.//td[2]'))
-                result['Date'] = Selector(text=item).xpath('.//td[2]/text()').get().strip()
+                # result['Date'] = Selector(text=item).xpath('.//td[2]/text()').get().strip()
                 yield result

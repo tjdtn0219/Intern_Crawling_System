@@ -14,6 +14,6 @@ class JBOSS_EWS_Spider(scrapy.Spider):
 
         for item in items:
             version = Selector(text=item).xpath('.//label/text()').get()
-            result['Name'] = version.strip()
+            result['Version'] = version.strip()
             yield result        
             #/html/body/table[2]/tbody/tr/td[3]/h2[1]/a

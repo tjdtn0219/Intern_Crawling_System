@@ -30,7 +30,7 @@ class F5Spider(scrapy.Spider):
 
         for row in table_rows:
             if Selector(text=row).xpath('.//td[1]/strong/text()').get():
-                result['Name'] = Selector(text=row).xpath('.//td[1]/strong/text()').get().strip()
+                result['Version'] = Selector(text=row).xpath('.//td[1]/strong/text()').get().strip()
                 result['Date'] = Selector(text=row).xpath('.//td[4]/strong/text()').get().strip()
                 yield result
         driver.quit()
