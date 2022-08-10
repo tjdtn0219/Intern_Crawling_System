@@ -1,5 +1,5 @@
 import json
-from DateFormat import Change_Date_Format, compare_extreme_informix
+from DateFormat import Change_Date_Format, compare_others
 from datetime import datetime
 
 path = "/var/lib/jenkins/Projects/LSSWARE_Crawler/"
@@ -28,8 +28,17 @@ def Read_Json(file_name, type):
             list_json = data
     
     if file_name in list_order:
+        #This is for unifying all json to descending order
         list_json = list(reversed(list_json))
+
     return list_json
+
+def Write_File(list_alert):
+    with open(path + "email_message.txt", "w") as file:
+        for item in list_alert:
+            file.write("#" + item['Name'] + "\n")
+            file.write(item['Date'] + " : " + item['Version'] + " 버전이 릴리즈 되었습니다.\n\n")
+
 
 def compare(ori_data, new_data, os_name):
     if "Date" in ori_data[0]:
@@ -47,22 +56,26 @@ def compare(ori_data, new_data, os_name):
         result['Date'] = str(datetime.now().date())
         return result
         #Compare ori
+        
 
+#===============================================================#
 list_diff = Read_File("List_Diff")
 list_alert = []
 
 for os_name in list_diff:
-    print("\n" + os_name.strip())
+    print(os_name.strip())
     ori_data = Read_Json(os_name.strip(), "ori")
     new_data = Read_Json(os_name.strip(), "new")
 
     if os_name == "extreme" or os_name == "informix":
-        list_alert += compare_extreme_informix(ori_data, new_data, os_name)
+        #extrme, informix json can not be ordered by asc nor desc
+        list_alert += compare_others(ori_data, new_data, os_name)
         pass
     else:
         if compare(ori_data, new_data, os_name):
             list_alert.append(compare(ori_data, new_data, os_name))
 
-print (list_alert)
+if len(list_alert) > 0:
+    Write_File(list_alert)
     
 

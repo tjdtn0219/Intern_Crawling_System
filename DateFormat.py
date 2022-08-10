@@ -14,8 +14,7 @@ def Change_Date_Format(str_date):
         except ValueError:
             continue
     
-def compare_extreme_informix(ori_data, new_data, os_name):
-    print("---")
+def compare_others(ori_data, new_data, os_name):
     ori_max = Change_Date_Format(ori_data[0]['Date']).date()
     for data in ori_data:
         date = Change_Date_Format(data['Date']).date()

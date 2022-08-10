@@ -8,5 +8,6 @@
 {"Version": "32.0.x"},
 {"Version": "32.1.x"},
 {"Version": "32.2.x"},
-{"Version": "32.4.x"}
+{"Version": "32.4.x"},
+{"Version": "32.5.x"}
 ]

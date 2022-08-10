@@ -1,5 +1,3 @@
-extreme
-aix
-mssql
-resin
-informix
+alteon
+mysql
+jbossews

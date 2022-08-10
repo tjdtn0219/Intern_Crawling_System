@@ -15,6 +15,5 @@
 {"Version": "SQL 2012"},
 {"Version": "SQL 2014"},
 {"Version": "SQL 2016/17"},
-{"Version": "SQL 2019"},
-{"Version": "SQL 2020"}
+{"Version": "SQL 2019"}
 ]

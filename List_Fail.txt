@@ -1,1 +1,1 @@
-altibase
+informix
