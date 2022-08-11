@@ -18,7 +18,7 @@ while read OS_NAME; do
         break
     else
         echo ${OS_NAME}
-        for i in {1..30}; do
+        for i in {1..2}; do
         timeout 2m bash -c "${Scapy_CMD} ${OS_NAME} -O ${File_path}${OS_NAME}.json" \
         && \
         if [ -s "${OS_NAME}.json" ]
