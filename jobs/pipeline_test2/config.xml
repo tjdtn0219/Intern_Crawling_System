@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2114.v2654ca_721309"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2114.v2654ca_721309">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;CheckDatas&apos;) {
+            steps {
+                sh &quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDatas.sh&quot;
+            }
+        }
+        stage(&apos;ReScrapy&apos;) {
+            steps {
+                sh &quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/ReScrapy.sh&quot;
+                sh &quot;rm -rf /var/lib/jenkins/Projects/LSSWARE_Crawler/List_Fail.txt&quot;
+            }
+        }
+        stage(&apos;CheckDatas Again&apos;) {
+            steps {
+                sh &quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDatas.sh&quot;
+                script {
+                    if (fileExists(&apos;/var/lib/jenkins/Projects/LSSWARE_Crawler/List_Fail.txt&apos;)) {
+                        throw new Exception()
+                    }
+                }
+            }
+        }
+    }
+    post {
+        failure {
+            echo &apos;======SCRAPY ERROR======&apos;
+            mail to: &apos;wkdtjdtn0219@gmail.com&apos;,
+            subject: &quot;Failed Scrapy&quot;,
+            body: &quot;***Scrapy Fail List***\n&quot; + readFile(&quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/List_Fail.txt&quot;) + &quot;\nPlease check if url server is operated and Scrapy codes.&quot;
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

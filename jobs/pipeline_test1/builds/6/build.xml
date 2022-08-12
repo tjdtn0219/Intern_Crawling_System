@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>wkdtjdtn</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@612.v84da_9c54906d">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>79</queueId>
+  <timestamp>1660095700757</timestamp>
+  <startTime>1660095700802</startTime>
+  <result>FAILURE</result>
+  <duration>175068</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node {
+    stage(&apos;Init&apos;) {
+        sh &quot;rm -rf /var/lib/jenkins/Projects/LSSWARE_Crawler/List_Fail* /var/lib/jenkins/Projects/LSSWARE_Crawler/List_Diff*&quot;
+    }
+    stage(&apos;Scrapy&apos;) {
+        sh &quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/Scrapy.sh List_OS.txt&quot;
+    }
+    post {
+        always {
+            emailext body: &apos;A Test EMail&apos;, recipientProviders: [[$class: &apos;DevelopersRecipientProvider&apos;], [$class: &apos;RequesterRecipientProvider&apos;]], subject: &apos;Test&apos;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>1795893452</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>35390912</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>13047224636</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>98126128</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>10567086623</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

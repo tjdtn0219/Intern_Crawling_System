@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>wkdtjdtn</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@612.v84da_9c54906d">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>69</queueId>
+  <timestamp>1660032205068</timestamp>
+  <startTime>1660032205135</startTime>
+  <result>SUCCESS</result>
+  <duration>4064</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    stage(&apos;CheckDiff&apos;) {
+        sh &quot;pwd&quot;
+        sh &quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDiff.sh&quot;
+    }
+    stage(&apos;Compare&apos;) {
+        if (fileExists(&apos;List_Diff.txt&apos;)) {
+            sh &quot;echo hi&quot;
+        }
+        else {
+            sh &quot;echo no&quot;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>1811721053</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>9485916</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>3407035233</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>17180630</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1006253050</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>19</iota>
+    <head>1:19</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

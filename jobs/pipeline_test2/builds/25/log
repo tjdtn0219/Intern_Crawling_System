@@ -1,0 +1,359 @@
+Started by user [8mha:////4K03eFavOI0T+o/XmLBnymmGJHMwpnd8R3nu47rR/uQJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL98uyUkqyUkjwAneinScMAAAA=[0mwkdtjdtn
+[8mha:////4Cqvv/9IGBYq0dty9ko5Kk/XIQrfwMXzpi9NgYNi1neVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4E+QSlopF8Fic58WhR54gtK8r/spwW/UG2hl15QJiXZKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JTpmOFj1G5tsYRlmn+SdIBZMxHMzfMiHhoWQ+bzWEuhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline_test2
+[8mha:////4DYhcUpwFBiSVWOPsOaid2mBVfGuhvhOV2Hochzs+qSrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LrDqARBnoN8lkbnOLwnl+WjZBNktoO4BWaQk4m2kZc3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4I91nq80dbUbpFqdfgs3Wj0pbPe6fmL0uq+IoBgG9EMYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (CheckDatas)
+[8mha:////4KoTa43n145DgYaBqLFTKvTaWhNZbsb4TY6UfUiBn3MqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ /var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDatas.sh
+mysql
+[8mha:////4B95rzCWdwNTPscLxX53ajib7FU3Y1YvOTmnTSSM8VHgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4KDR9Gt15r5ll2ZGgZGkmvEPhqKjMZPYd9MvkV+aacI9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4NpqPoD4piQzSqlwJZbfCN6y6NRmJ58x7zQnvmCmAlw7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4AP43cAM+lcPOAfQ0BoeOrTtWzfa0ixhSVRwvOK3AGzBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (ReScrapy)
+[8mha:////4KqPBvD4XH+OQsx2NRu25fJZ+rTNgciQA59l8d9bqgmpAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ /var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/ReScrapy.sh
+mkdir: cannot create directory ‘new_data’: File exists
+mysql
+2022-08-11 10:50:59 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: Crawler)
+2022-08-11 10:50:59 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.13, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0], pyOpenSSL 21.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 3.4.8, Platform Linux-5.15.0-43-generic-x86_64-with-glibc2.35
+2022-08-11 10:50:59 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-08-11 10:50:59 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Crawler',
+ 'NEWSPIDER_MODULE': 'Crawler.spiders',
+ 'SPIDER_MODULES': ['Crawler.spiders']}
+2022-08-11 10:50:59 [scrapy.extensions.telnet] INFO: Telnet Password: cf2f76cb2b378e96
+2022-08-11 10:50:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-08-11 10:50:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-08-11 10:50:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-08-11 10:50:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-08-11 10:50:59 [scrapy.core.engine] INFO: Spider opened
+2022-08-11 10:50:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-08-11 10:50:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-08-11 10:50:59 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://en.wikipedia.org/wiki/MySQL1> (referer: None)
+2022-08-11 10:50:59 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://en.wikipedia.org/wiki/MySQL1>: HTTP status code is not handled or not allowed
+2022-08-11 10:50:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-08-11 10:50:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 9225,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.447468,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 11, 1, 50, 59, 956104),
+ 'httpcompression/response_bytes': 29109,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 11,
+ 'memusage/max': 61956096,
+ 'memusage/startup': 61956096,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 11, 1, 50, 59, 508636)}
+2022-08-11 10:50:59 [scrapy.core.engine] INFO: Spider closed (finished)
+===========RETRY : 1===========
+2022-08-11 10:51:05 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: Crawler)
+2022-08-11 10:51:05 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.13, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0], pyOpenSSL 21.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 3.4.8, Platform Linux-5.15.0-43-generic-x86_64-with-glibc2.35
+2022-08-11 10:51:05 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-08-11 10:51:05 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Crawler',
+ 'NEWSPIDER_MODULE': 'Crawler.spiders',
+ 'SPIDER_MODULES': ['Crawler.spiders']}
+2022-08-11 10:51:05 [scrapy.extensions.telnet] INFO: Telnet Password: 67a3a26ad01c5055
+2022-08-11 10:51:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-08-11 10:51:05 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-08-11 10:51:05 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-08-11 10:51:05 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-08-11 10:51:05 [scrapy.core.engine] INFO: Spider opened
+2022-08-11 10:51:05 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-08-11 10:51:05 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-08-11 10:51:05 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://en.wikipedia.org/wiki/MySQL1> (referer: None)
+2022-08-11 10:51:06 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://en.wikipedia.org/wiki/MySQL1>: HTTP status code is not handled or not allowed
+2022-08-11 10:51:06 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-08-11 10:51:06 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 9214,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.444355,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 11, 1, 51, 6, 92669),
+ 'httpcompression/response_bytes': 29109,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 11,
+ 'memusage/max': 62021632,
+ 'memusage/startup': 62021632,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 11, 1, 51, 5, 648314)}
+2022-08-11 10:51:06 [scrapy.core.engine] INFO: Spider closed (finished)
+===========RETRY : 2===========
+mysql
+2022-08-11 10:51:11 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: Crawler)
+2022-08-11 10:51:11 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.13, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0], pyOpenSSL 21.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 3.4.8, Platform Linux-5.15.0-43-generic-x86_64-with-glibc2.35
+2022-08-11 10:51:11 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-08-11 10:51:11 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Crawler',
+ 'NEWSPIDER_MODULE': 'Crawler.spiders',
+ 'SPIDER_MODULES': ['Crawler.spiders']}
+2022-08-11 10:51:11 [scrapy.extensions.telnet] INFO: Telnet Password: bc1aa773dac6b580
+2022-08-11 10:51:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-08-11 10:51:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-08-11 10:51:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-08-11 10:51:11 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-08-11 10:51:11 [scrapy.core.engine] INFO: Spider opened
+2022-08-11 10:51:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-08-11 10:51:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-08-11 10:51:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://en.wikipedia.org/wiki/MySQL1> (referer: None)
+2022-08-11 10:51:12 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://en.wikipedia.org/wiki/MySQL1>: HTTP status code is not handled or not allowed
+2022-08-11 10:51:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-08-11 10:51:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 9215,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.430379,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 11, 1, 51, 12, 213429),
+ 'httpcompression/response_bytes': 29109,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 11,
+ 'memusage/max': 62259200,
+ 'memusage/startup': 62259200,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 11, 1, 51, 11, 783050)}
+2022-08-11 10:51:12 [scrapy.core.engine] INFO: Spider closed (finished)
+===========RETRY : 1===========
+2022-08-11 10:51:17 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: Crawler)
+2022-08-11 10:51:17 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.13, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0], pyOpenSSL 21.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 3.4.8, Platform Linux-5.15.0-43-generic-x86_64-with-glibc2.35
+2022-08-11 10:51:17 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-08-11 10:51:17 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Crawler',
+ 'NEWSPIDER_MODULE': 'Crawler.spiders',
+ 'SPIDER_MODULES': ['Crawler.spiders']}
+2022-08-11 10:51:17 [scrapy.extensions.telnet] INFO: Telnet Password: f3c27880411b7f37
+2022-08-11 10:51:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-08-11 10:51:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-08-11 10:51:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-08-11 10:51:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-08-11 10:51:17 [scrapy.core.engine] INFO: Spider opened
+2022-08-11 10:51:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-08-11 10:51:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-08-11 10:51:18 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://en.wikipedia.org/wiki/MySQL1> (referer: None)
+2022-08-11 10:51:18 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 https://en.wikipedia.org/wiki/MySQL1>: HTTP status code is not handled or not allowed
+2022-08-11 10:51:18 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-08-11 10:51:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 231,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 9215,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 0.469793,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 11, 1, 51, 18, 384206),
+ 'httpcompression/response_bytes': 29109,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/404': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 11,
+ 'memusage/max': 61865984,
+ 'memusage/startup': 61865984,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 11, 1, 51, 17, 914413)}
+2022-08-11 10:51:18 [scrapy.core.engine] INFO: Spider closed (finished)
+===========RETRY : 2===========
+|=============================================================================|
+|=============================================================================|
+|===========================Complete Shell Scipt!=============================|
+|=============================================================================|
+|=============================================================================|
+|RETRY_LIST : ================================================================|
+|==============mysql : Please Check if mysql.json file has datas.
+|=============================================================================|
+|=============================================================================|
+[8mha:////4BmB8AWkr4gEQ5BFcd99qik1+5F5E18S3T57U9hE7DCaAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ rm -rf /var/lib/jenkins/Projects/LSSWARE_Crawler/List_Fail.txt
+[8mha:////4EirdJTXFuSErbN9WopmZ5bbNForjbU0SwIvZ7VOCnT0AAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4O2F4kJ2bxOOwmnyacWkK6n4hF4dogfdfSti0A//BAaCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bgo2J0a+AAAA[0m[Pipeline] // stage
+[8mha:////4MxOXS3mAWyZLTBmKUgev9HU3rCG6cwYhdoUL//LDmZpAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJESDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8A6sHc4fBAAAA[0m[Pipeline] stage
+[8mha:////4BxFNZK/5fLjzEEfkVFLsYahD9xB/1brKNSoMdsQ30ZlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (CheckDatas Again)
+[8mha:////4AAJbIhw8+t/oQ/R9CIBOxtngSyboiWPzhcqX+vutzwqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxXfVKy+AAAA[0m[Pipeline] sh
++ /var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDatas.sh
+mysql
+[8mha:////4PNvo/QF6wlQnIMrglAeC0WUiQxM6YxgncpC6MR262kPAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTAghpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+822BnCAAAA[0m[Pipeline] script
+[8mha:////4PjiHzbcenWUPLeFDm9bB8JhmF5JZwJAT4CoqRnerDgSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] {
+[8mha:////4O/gVk9bttxjzVS99LyeYLTy+6T/DJ7YHJj5TsXMSj5zAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] fileExists
+Scripts not permitted to use new java.lang.Exception. [8mha:////4JKCiWgh7udQ+1A3hlc98bKUEP+/EU473Z8JGqJP81XCAAAAiB+LCAAAAAAAAP9b85aBtbiIwT6/KF0vKzUvOzOvODlTryCnNB3I0itOLsosKClOTS4tyiyphHH1gsG0Y0FBUX5ZYo5ffknqtYPfw9+fOF3BxMDoycCWk5qXXpJRUcQglVGaUpyfp5ecn1ecn5Oq5wyhQToYIICRiYGhogDIcAMAZ5WGTIoAAAA=[0mAdministrators can decide whether to approve or reject this signature.
+[8mha:////4O1fdwEcC98dfRPxrdwTL9cegcgjg/VJE5Gchb9v1cQ+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4II1BOfS77JbYFqAtrzj73EpBrk0ihu/R/l8f3Tn/WguAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // script
+[8mha:////4F9DTQCTnCEPVxLbrlDbNXoMN8bbcOw4yoFobMfE8N/vAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAkWr3Ir4AAAA=[0m[Pipeline] }
+[8mha:////4LGkIpMBQa/rb4z4OPTIDyvgWq7dKc062B2kroXo5krQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw+iiayevgAAAA==[0m[Pipeline] // stage
+[8mha:////4BUOqJ6UiVYha6AVohOdqBZLSMy8dznYoiCYRaFYyFUrAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjIUSDqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFlKDa7z7F8AzYdm7bBAAAA[0m[Pipeline] stage
+[8mha:////4FyaJ6WP+oCQneDSfa7zgicMuTXnL6L2Fqxh0DVC/jd8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4Jcq1UlVHG6lVXALt7zyGKsknM6e/b+HNsJ5jXTA66NzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] echo
+======SCRAPY ERROR======
+[8mha:////4FsLWIJOKdBfftgsZ3GQGYoEe2Qcxottin4EAIZS6jsZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHuV4Y5vgAAAA==[0m[Pipeline] readFile
+[8mha:////4FcLKHdTEkmKJ7vz67hCTYef7KtTHSwV+34q8t9Lnz1UAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+QhobpvgAAAA==[0m[Pipeline] mail
+[8mha:////4JwCSh+ruQMBn/6qoPYzh388uGkFqu3DNC9AnoK0uhy7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioKBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Vo2D/vgAAAA==[0m[Pipeline] }
+[8mha:////4PhOaa/RLdVSfAbzQ8h4iFiFWOJl9/9CSaFKl0ZZ4OLoAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBYkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9t4fMOvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AtFwa5yOAm1bq+x6nr4HqKhYF/I8TRl060VJbIDI8ZfAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4PXrygG/r+xyGqtc1+k0hHleohhc+Y31njnUEBnIQL3PAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4NqPyAzFQN4cAbFFVFGAfranLsY6H5Uqe3nNnL/dfoU/AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+org.jenkinsci.plugins.scriptsecurity.sandbox.RejectedAccessException: Scripts not permitted to use new java.lang.Exception
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.whitelists.StaticWhitelist.rejectNew(StaticWhitelist.java:238)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onNewInstance(SandboxInterceptor.java:175)
+	at org.kohsuke.groovy.sandbox.impl.Checker$3.call(Checker.java:205)
+	at org.kohsuke.groovy.sandbox.impl.Checker.checkedConstructor(Checker.java:210)
+	at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.constructorCall(SandboxInvoker.java:21)
+	at WorkflowScript.run(WorkflowScript:20)
+	at ___cps.transform___(Native Method)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:97)
+	at com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixName(FunctionCallBlock.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor153.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:174)
+	at com.cloudbees.groovy.cps.Continuable$1.call(Continuable.java:163)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:163)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:18)
+	at org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:51)
+	at org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:187)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:420)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.access$400(CpsThreadGroup.java:95)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+	at org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+	at org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$2.call(CpsVmExecutorService.java:67)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE

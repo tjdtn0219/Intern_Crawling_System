@@ -1,0 +1,91 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@833.va_1c71061486b_">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>29</string>
+    </parentIds>
+    <id>30</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.MailStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2759.v87459c4eea_ca_">
+      <arguments>
+        <entry>
+          <string>to</string>
+          <string>wkdtjdtn0219@gmail.com</string>
+        </entry>
+        <entry>
+          <string>body</string>
+          <string>***Scrapy Fail List***
+mysql
+
+Please check if url server is operated and Scrapy codes.</string>
+        </entry>
+        <entry>
+          <string>subject</string>
+          <string>Failed Scrapy</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1188.v0016b_4f29881">
+      <startTime>1660203207845</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+    <wf.a.ErrorAction plugin="workflow-api@1188.v0016b_4f29881">
+      <error class="jakarta.mail.MessagingException" plugin="jakarta-mail-api@2.0.0-6">
+        <detailMessage>Could not connect to SMTP host: 192.168.100.12, port: 25</detailMessage>
+        <stackTrace>
+          <trace>com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2212)</trace>
+          <trace>com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)</trace>
+          <trace>jakarta.mail.Service.connect(Service.java:364)</trace>
+          <trace>jakarta.mail.Service.connect(Service.java:222)</trace>
+          <trace>jakarta.mail.Service.connect(Service.java:171)</trace>
+          <trace>jakarta.mail.Transport.send0(Transport.java:230)</trace>
+          <trace>jakarta.mail.Transport.send(Transport.java:100)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.MailStep$MailStepExecution.run(MailStep.java:143)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.MailStep$MailStepExecution.run(MailStep.java:129)</trace>
+          <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+        <next class="javax.net.ssl.SSLException">
+          <detailMessage>Unsupported or unrecognized SSL message</detailMessage>
+          <stackTrace>
+            <trace>java.base/sun.security.ssl.SSLSocketInputRecord.handleUnknownRecord(SSLSocketInputRecord.java:451)</trace>
+            <trace>java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:175)</trace>
+            <trace>java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)</trace>
+            <trace>java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506)</trace>
+            <trace>java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1416)</trace>
+            <trace>java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:456)</trace>
+            <trace>java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:427)</trace>
+            <trace>com.sun.mail.util.SocketFetcher.configureSSLSocket(SocketFetcher.java:602)</trace>
+            <trace>com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:376)</trace>
+            <trace>com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:214)</trace>
+            <trace>com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2160)</trace>
+            <trace>com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:722)</trace>
+            <trace>jakarta.mail.Service.connect(Service.java:364)</trace>
+            <trace>jakarta.mail.Service.connect(Service.java:222)</trace>
+            <trace>jakarta.mail.Service.connect(Service.java:171)</trace>
+            <trace>jakarta.mail.Transport.send0(Transport.java:230)</trace>
+            <trace>jakarta.mail.Transport.send(Transport.java:100)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.MailStep$MailStepExecution.run(MailStep.java:143)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.MailStep$MailStepExecution.run(MailStep.java:129)</trace>
+            <trace>org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:47)</trace>
+            <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+            <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+            <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+            <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+            <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+          </stackTrace>
+          <suppressedExceptions class="empty-list"/>
+        </next>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

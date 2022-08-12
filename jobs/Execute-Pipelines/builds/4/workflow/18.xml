@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@833.va_1c71061486b_">
+  <node class="cps.n.StepEndNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>17</string>
+    </parentIds>
+    <id>18</id>
+    <startId>15</startId>
+  </node>
+  <actions>
+    <wf.a.TimingAction plugin="workflow-api@1188.v0016b_4f29881">
+      <startTime>1660183146474</startTime>
+    </wf.a.TimingAction>
+    <wf.a.ErrorAction plugin="workflow-api@1188.v0016b_4f29881">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@639.v6eca_cd8c04a_a_">
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerListener.onCompleted(BuildTriggerListener.java:53)</trace>
+          <trace>hudson.model.listeners.RunListener.lambda$fireCompleted$0(RunListener.java:207)</trace>
+          <trace>jenkins.util.Listeners.lambda$notify$0(Listeners.java:59)</trace>
+          <trace>jenkins.util.Listeners.notify(Listeners.java:67)</trace>
+          <trace>hudson.model.listeners.RunListener.fireCompleted(RunListener.java:205)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.finish(WorkflowRun.java:627)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun.access$800(WorkflowRun.java:138)</trace>
+          <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$GraphL.onNewHead(WorkflowRun.java:1049)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.notifyListeners(CpsFlowExecution.java:1518)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$3.run(CpsThreadGroup.java:509)</trace>
+          <trace>org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.run(CpsVmExecutorService.java:38)</trace>
+          <trace>hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)</trace>
+          <trace>jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)</trace>
+          <trace>jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)</trace>
+          <trace>java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)</trace>
+          <trace>java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)</trace>
+          <trace>java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)</trace>
+          <trace>java.base/java.lang.Thread.run(Thread.java:829)</trace>
+        </stackTrace>
+        <suppressedExceptions class="empty-list"/>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause plugin="pipeline-build-step@2.18">
+              <id>pipeline_test2#27</id>
+            </org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause>
+          </a>
+        </causes>
+        <actualInterruption>false</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
+  </actions>
+</Tag>

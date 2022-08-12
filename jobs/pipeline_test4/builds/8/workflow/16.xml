@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@833.va_1c71061486b_">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <parentIds>
+      <string>15</string>
+    </parentIds>
+    <id>16</id>
+    <descriptorId>hudson.plugins.emailext.EmailExtStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2759.v87459c4eea_ca_">
+      <arguments>
+        <entry>
+          <string>to</string>
+          <string>wkdtjdtn0219@gmail.com</string>
+        </entry>
+        <entry>
+          <string>body</string>
+          <string>Hellow world1121</string>
+        </entry>
+        <entry>
+          <string>attachlog</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>subject</string>
+          <string>test_email</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1188.v0016b_4f29881">
+      <startTime>1660109424363</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

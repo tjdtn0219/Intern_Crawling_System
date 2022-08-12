@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2114.v2654ca_721309"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2114.v2654ca_721309">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2759.v87459c4eea_ca_">
+    <script>pipeline {
+    agent any
+    stages {
+        stage(&apos;Start&apos;) {
+            steps {
+                sh &quot;echo start!&quot;
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                if (fileExists(&apos;/var/lib/jenkins/Projects/LSSWARE_Crawler/email_message.txt&apos;)) {
+                    sh &quot;echo File Exists&quot;
+                    emailext (
+                        to: &apos;wkdtjdtn0219@gmail.com&apos;,
+                        subject: &quot;test_email&quot;,
+                        body: readFile(&quot;/var/lib/jenkins/Projects/LSSWARE_Crawler/email_message.txt&quot;),
+                        attachlog: true
+                    )
+                }
+                else {
+                    sh &quot;echo File no exists&quot;
+                }
+            }
+        }
+    }
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

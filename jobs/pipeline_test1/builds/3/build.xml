@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1207.ve6191ff089f8">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>wkdtjdtn</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@612.v84da_9c54906d">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1660025233989</timestamp>
+  <startTime>1660025234056</startTime>
+  <result>SUCCESS</result>
+  <duration>7657</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>node {
+    stage(&apos;Ready&apos;) {
+        sh &quot;whoami&quot;
+        sh &quot;pwd&quot;
+        sh &quot;cd /var/lib/jenkins/Projects/LSSWARE_Crawler&quot;
+        sh &quot;pwd&quot;
+    }
+    stage(&apos;PWD&apos;) {
+        sh &quot;pwd&quot;
+    }
+    stage(&quot;OS-RELEASE&quot;) {
+        sh &quot;cat /etc/os-release&quot;
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>3486249681</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>51229593</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>6706602086</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>40939454</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>1898982587</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>25</iota>
+    <head>1:25</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

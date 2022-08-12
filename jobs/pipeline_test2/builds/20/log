@@ -1,0 +1,390 @@
+Started by user [8mha:////4K03eFavOI0T+o/XmLBnymmGJHMwpnd8R3nu47rR/uQJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL98uyUkqyUkjwAneinScMAAAA=[0mwkdtjdtn
+[8mha:////4Cqvv/9IGBYq0dty9ko5Kk/XIQrfwMXzpi9NgYNi1neVAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4E+QSlopF8Fic58WhR54gtK8r/spwW/UG2hl15QJiXZKAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4JTpmOFj1G5tsYRlmn+SdIBZMxHMzfMiHhoWQ+bzWEuhAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/pipeline_test2
+[8mha:////4DYhcUpwFBiSVWOPsOaid2mBVfGuhvhOV2Hochzs+qSrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4LrDqARBnoN8lkbnOLwnl+WjZBNktoO4BWaQk4m2kZc3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4I91nq80dbUbpFqdfgs3Wj0pbPe6fmL0uq+IoBgG9EMYAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (CheckDatas)
+[8mha:////4KoTa43n145DgYaBqLFTKvTaWhNZbsb4TY6UfUiBn3MqAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] sh
++ /var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/CheckDatas.sh
+informix
+[8mha:////4B95rzCWdwNTPscLxX53ajib7FU3Y1YvOTmnTSSM8VHgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4KDR9Gt15r5ll2ZGgZGkmvEPhqKjMZPYd9MvkV+aacI9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4NpqPoD4piQzSqlwJZbfCN6y6NRmJ58x7zQnvmCmAlw7AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4AP43cAM+lcPOAfQ0BoeOrTtWzfa0ixhSVRwvOK3AGzBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (ReScrapy)
+[8mha:////4KqPBvD4XH+OQsx2NRu25fJZ+rTNgciQA59l8d9bqgmpAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ /var/lib/jenkins/Projects/LSSWARE_Crawler/shell_scripts/ReScrapy.sh
+mkdir: cannot create directory ‘new_data’: File exists
+informix
+2022-08-10 14:00:02 [scrapy.utils.log] INFO: Scrapy 2.5.1 started (bot: Crawler)
+2022-08-10 14:00:02 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.13, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.1.0, Python 3.10.4 (main, Jun 29 2022, 12:14:53) [GCC 11.2.0], pyOpenSSL 21.0.0 (OpenSSL 3.0.2 15 Mar 2022), cryptography 3.4.8, Platform Linux-5.15.0-43-generic-x86_64-with-glibc2.35
+2022-08-10 14:00:02 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2022-08-10 14:00:02 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'Crawler',
+ 'NEWSPIDER_MODULE': 'Crawler.spiders',
+ 'SPIDER_MODULES': ['Crawler.spiders']}
+2022-08-10 14:00:02 [scrapy.extensions.telnet] INFO: Telnet Password: 11f8d3d687294be0
+2022-08-10 14:00:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2022-08-10 14:00:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-08-10 14:00:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-08-10 14:00:02 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-08-10 14:00:02 [scrapy.core.engine] INFO: Spider opened
+2022-08-10 14:00:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-08-10 14:00:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2022-08-10 14:00:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en> (referer: None)
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Enterprise Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Workgroup Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Choice Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Choice Edition 11.50', 'Date': '2010/08/03'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Developer Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Developer Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Enterprise Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Enterprise Edition 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Express 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Express 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Workgroup Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Workgroup Edition 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Enterprise Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Express Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Express Edition 11.70.0', 'Date': '2010/10/25'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Edition 11.50', 'Date': '2010/06/01'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Warehouse Edition 11.70.0', 'Date': '2011/11/18'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for AIX 12.10.0', 'Date': '2013/07/05'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for AIX 11.7.0', 'Date': '2012/12/11'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for RHEL 12.10.0', 'Date': '2013/07/05'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for RHEL 11.7.0', 'Date': '2012/12/11'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Innovator-C Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Edition 11.50', 'Date': '2010/06/01'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Warehouse Edition 11.70', 'Date': '2011/04/07'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Warehouse 11.50', 'Date': '2009/04/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Workgroup Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Developer Edition 12.10.0', 'Date': '2014/09/12'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Storage Optimization Feature for Enterprise Edition 12.10.0', 'Date': '2014/09/12'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Enterprise Edition 14.10.0', 'Date': '2019/03/14'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Enterprise Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Enterprise Edition 14.10.0', 'Date': '2019/03/14'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Express Edition 14.10.0', 'Date': '2019/03/14'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Workgroup Edition 14.10.0', 'Date': '2019/03/14'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Cloud Pak for Data Informix 14.10', 'Date': '2020/06/19'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Enterprise Edition Extension for IBM Cloud Pak for Data 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Workgroup Edition Extension for IBM Cloud Pak for Data 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Enterprise Edition Modernization 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Workgroup Edition Modernization 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Enterprise Edition Cartridge for IBM Cloud Pak for Data 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Workgroup Edition Cartridge for IBM Cloud Pak for Data 14.10', 'Date': '2020/07/28'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Developer Edition 12.10.0', 'Date': '2014/09/12'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Enterprise Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Advanced Workgroup Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Choice Edition 11.50', 'Date': '2010/08/03'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Choice Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Developer Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Developer Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Enterprise Edition 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Enterprise Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Express 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Express 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Workgroup Edition 11.10', 'Date': '2007/07/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Dynamic Server Workgroup Edition 11.50', 'Date': '2008/05/13'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Express Edition 11.70.0', 'Date': '2010/10/25'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Express Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Edition 11.50', 'Date': '2010/06/01'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Growth Warehouse Edition 11.70.0', 'Date': '2011/11/18'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for AIX 11.7.0', 'Date': '2012/12/11'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for AIX 12.10.0', 'Date': '2013/07/05'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for RHEL 11.7.0', 'Date': '2012/12/11'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Hypervisor Edition for RHEL 12.10.0', 'Date': '2013/07/05'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Innovator-C Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Storage Optimization Feature for Enterprise Edition 12.10.0', 'Date': '2014/09/12'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Edition 11.50', 'Date': '2010/06/01'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Edition 11.70', 'Date': '2010/11/02'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Ultimate Warehouse Edition 11.70', 'Date': '2011/04/07'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Warehouse 11.50', 'Date': '2009/04/30'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'Informix Workgroup Edition 12.10.0', 'Date': '2013/03/26'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Advanced Enterprise Edition Cartridge for IBM Cloud Pak for Data 14.10', 'Date': '2021/03/09'}
+2022-08-10 14:00:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en>
+{'Version': 'IBM Informix Advanced Enterprise Edition Modernization 14.10', 'Date': '2021/03/09'}
+2022-08-10 14:00:05 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-08-10 14:00:05 [scrapy.extensions.feedexport] INFO: Stored json feed (73 items) in: informix.json
+2022-08-10 14:00:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 288,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 24023,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 3.126825,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 10, 5, 0, 5, 413394),
+ 'httpcompression/response_bytes': 270632,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 73,
+ 'log_count/DEBUG': 74,
+ 'log_count/INFO': 11,
+ 'memusage/max': 61784064,
+ 'memusage/startup': 61784064,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 10, 5, 0, 2, 286569)}
+2022-08-10 14:00:05 [scrapy.core.engine] INFO: Spider closed (finished)
+Informix Advanced Enterprise Edition 12.10.0
+2013/03/26
+Informix Advanced Workgroup Edition 12.10.0
+2013/03/26
+Informix Choice Edition 11.70
+2010/11/02
+Informix Choice Edition 11.50
+2010/08/03
+Informix Developer Edition 12.10.0
+2013/03/26
+Informix Dynamic Server Developer Edition 11.50
+2008/05/13
+Informix Dynamic Server Enterprise Edition 11.50
+2008/05/13
+Informix Dynamic Server Enterprise Edition 11.10
+2007/07/30
+Informix Dynamic Server Express 11.50
+2008/05/13
+Informix Dynamic Server Express 11.10
+2007/07/30
+Informix Dynamic Server Workgroup Edition 11.50
+2008/05/13
+Informix Dynamic Server Workgroup Edition 11.10
+2007/07/30
+Informix Enterprise Edition 12.10.0
+2013/03/26
+Informix Express Edition 12.10.0
+2013/03/26
+Informix Express Edition 11.70.0
+2010/10/25
+Informix Growth Edition 11.70
+2010/11/02
+Informix Growth Edition 11.50
+2010/06/01
+Informix Growth Warehouse Edition 11.70.0
+2011/11/18
+Informix Hypervisor Edition for AIX 12.10.0
+2013/07/05
+Informix Hypervisor Edition for AIX 11.7.0
+2012/12/11
+Informix Hypervisor Edition for RHEL 12.10.0
+2013/07/05
+Informix Hypervisor Edition for RHEL 11.7.0
+2012/12/11
+Informix Innovator-C Edition 12.10.0
+2013/03/26
+Informix Ultimate Edition 11.70
+2010/11/02
+Informix Ultimate Edition 11.50
+2010/06/01
+Informix Ultimate Warehouse Edition 11.70
+2011/04/07
+Informix Warehouse 11.50
+2009/04/30
+Informix Workgroup Edition 12.10.0
+2013/03/26
+Informix Advanced Developer Edition 12.10.0
+2014/09/12
+Informix Storage Optimization Feature for Enterprise Edition 12.10.0
+2014/09/12
+Informix Advanced Enterprise Edition 14.10.0
+2019/03/14
+IBM Informix Enterprise Edition 12.10.0
+2013/03/26
+IBM Informix Enterprise Edition 14.10.0
+2019/03/14
+Informix Express Edition 14.10.0
+2019/03/14
+Informix Workgroup Edition 14.10.0
+2019/03/14
+IBM Cloud Pak for Data Informix 14.10
+2020/06/19
+IBM Informix Enterprise Edition Extension for IBM Cloud Pak for Data 14.10
+2020/07/28
+IBM Informix Workgroup Edition Extension for IBM Cloud Pak for Data 14.10
+2020/07/28
+IBM Informix Enterprise Edition Modernization 14.10
+2020/07/28
+IBM Informix Workgroup Edition Modernization 14.10
+2020/07/28
+IBM Informix Enterprise Edition Cartridge for IBM Cloud Pak for Data 14.10
+2020/07/28
+IBM Informix Workgroup Edition Cartridge for IBM Cloud Pak for Data 14.10
+2020/07/28
+Informix Advanced Developer Edition 12.10.0
+2014/09/12
+Informix Advanced Enterprise Edition 12.10.0
+2013/03/26
+Informix Advanced Workgroup Edition 12.10.0
+2013/03/26
+Informix Choice Edition 11.50
+2010/08/03
+Informix Choice Edition 11.70
+2010/11/02
+Informix Developer Edition 12.10.0
+2013/03/26
+Informix Dynamic Server Developer Edition 11.50
+2008/05/13
+Informix Dynamic Server Enterprise Edition 11.10
+2007/07/30
+Informix Dynamic Server Enterprise Edition 11.50
+2008/05/13
+Informix Dynamic Server Express 11.10
+2007/07/30
+Informix Dynamic Server Express 11.50
+2008/05/13
+Informix Dynamic Server Workgroup Edition 11.10
+2007/07/30
+Informix Dynamic Server Workgroup Edition 11.50
+2008/05/13
+Informix Express Edition 11.70.0
+2010/10/25
+Informix Express Edition 12.10.0
+2013/03/26
+Informix Growth Edition 11.50
+2010/06/01
+Informix Growth Edition 11.70
+2010/11/02
+Informix Growth Warehouse Edition 11.70.0
+2011/11/18
+Informix Hypervisor Edition for AIX 11.7.0
+2012/12/11
+Informix Hypervisor Edition for AIX 12.10.0
+2013/07/05
+Informix Hypervisor Edition for RHEL 11.7.0
+2012/12/11
+Informix Hypervisor Edition for RHEL 12.10.0
+2013/07/05
+Informix Innovator-C Edition 12.10.0
+2013/03/26
+Informix Storage Optimization Feature for Enterprise Edition 12.10.0
+2014/09/12
+Informix Ultimate Edition 11.50
+2010/06/01
+Informix Ultimate Edition 11.70
+2010/11/02
+Informix Ultimate Warehouse Edition 11.70
+2011/04/07
+Informix Warehouse 11.50
+2009/04/30
+Informix Workgroup Edition 12.10.0
+2013/03/26
+IBM Informix Advanced Enterprise Edition Cartridge for IBM Cloud Pak for Data 14.10
+2021/03/09
+IBM Informix Advanced Enterprise Edition Modernization 14.10
+2021/03/09
+=========informix : SUCCESS 1=========
+|=============================================================================|
+|=============================================================================|
+|===========================Complete Shell Scipt!=============================|
+|=============================================================================|
+|=============================================================================|
+|=========================ALL SPIDERS SCRAPY SUCCESSED!=======================|
+|=============================================================================|
+|=============================================================================|
+[8mha:////4OT5QfsUHij42E9Jx3cpI46nd9505BSVlNMyCjWhLxKfAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4MQEQr4I5KecY/UvshLBl3axgx5MarfMuxVYmZhE0MhbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4CVnqfjnxtxMIjQNAg1xO3vob0SAcj91nceYqSMo+f42AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4DXsYziCVxkeQTMrUATyWlC1yF2FZtMe3VjG7iVJDOClAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // node
+[8mha:////4GiWmXV+nV68T1Ezb5R1RTFPnqDkoRWKhFr+lrlnuSj9AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
