@@ -1,18 +1,19 @@
 import scrapy
 from scrapy.selector import Selector
+from Crawler.spiders.test_inherit import SpiderTest
 
-class SolarisSpider(scrapy.Spider):
+class SolarisSpider(SpiderTest):
     name = "solaris"
     start_urls = [
         'https://en.wikipedia.org/wiki/Oracle_Solaris',
     ]
 
-    def parse(self, response):
-        items = response.xpath('//*[@id="mw-content-text"]/div[1]/table[3]/tbody/tr').getall()
-        result = dict()
-        for item in items:
-            if Selector(text=item).xpath('.//td').get():
-                result['Version'] = Selector(text=item).xpath('.//td/@data-sort-value').get()
-                date = Selector(text=item).xpath('.//td[3]/text()').get().strip()
-                result['Date'] = date.replace("\u00a0", " ")
-                yield result
+    # def parse(self, response):
+    #     items = response.xpath('//*[@id="mw-content-text"]/div[1]/table[3]/tbody/tr').getall()
+    #     result = dict()
+    #     for item in items:
+    #         if Selector(text=item).xpath('.//td').get():
+    #             result['Version'] = Selector(text=item).xpath('.//td/@data-sort-value').get()
+    #             date = Selector(text=item).xpath('.//td[3]/text()').get().strip()
+    #             result['Date'] = date.replace("\u00a0", " ")
+    #             yield result

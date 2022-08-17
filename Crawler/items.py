@@ -9,6 +9,6 @@ import scrapy
 class ReleaseItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    name = scrapy.Field()
-    version = scrapy.Field()
-    date = scrapy.Field()
+    Name = scrapy.Field()
+    Version = scrapy.Field()
+    Date = scrapy.Field()
