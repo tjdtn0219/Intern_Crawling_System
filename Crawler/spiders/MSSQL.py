@@ -1,9 +1,9 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
 
-class OracleLinuxSpider(SpiderTest):
+class OracleLinuxSpider(Wiki_Spider):
     name = "mssql"
     start_urls = [
         'https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2017',

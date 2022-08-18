@@ -1,14 +1,14 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class AIXSpider(SpiderTest):
+class AIXSpider(Wiki_Spider):
     name = "aix"
     start_urls = [
         'https://en.wikipedia.org/wiki/IBM_AIX',
     ]
     def set_xpath(self):
-        SpiderTest.xpath = "qqw"
+        Wiki_Spider.xpath = "qqw"
     
     # def parse(self, response):
     #     release = ReleaseItem()

@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class JEUSSpider(SpiderTest):
+class JEUSSpider(Wiki_Spider):
     name = "jeus"
     start_urls = [
         'https://en.wikipedia.org/wiki/JEUS',

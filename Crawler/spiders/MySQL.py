@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class MySQLpider(SpiderTest):
+class MySQLpider(Wiki_Spider):
     name = "mysql"
     start_urls = [
         'https://en.wikipedia.org/wiki/MySQL',

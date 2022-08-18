@@ -1,9 +1,9 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
 
-class WindowsSpider(SpiderTest):
+class WindowsSpider(Wiki_Spider):
     ##윈도우 서버
     name = "windows"
     start_urls = [

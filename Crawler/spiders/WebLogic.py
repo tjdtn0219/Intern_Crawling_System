@@ -1,9 +1,9 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 import re
 
-class WebLogicSpider(SpiderTest):
+class WebLogicSpider(Wiki_Spider):
     name = "weblogic"
     start_urls = [
         'https://en.wikipedia.org/wiki/Oracle_WebLogic_Server',

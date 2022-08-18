@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class MariaDBpider(SpiderTest):
+class MariaDBpider(Wiki_Spider):
     name = "mariadb"
     start_urls = [
         'https://en.wikipedia.org/wiki/MariaDB',

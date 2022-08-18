@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class iPlanetSpider(SpiderTest):
+class iPlanetSpider(Wiki_Spider):
     name = "iplanet"
     start_urls = [
         'https://en.wikipedia.org/wiki/Oracle_iPlanet_Web_Server',

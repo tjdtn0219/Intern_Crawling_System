@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class HPUXSpider(SpiderTest):
+class HPUXSpider(Wiki_Spider):
     name = "hpux"
     start_urls = [
         'https://en.wikipedia.org/wiki/HP-UX',

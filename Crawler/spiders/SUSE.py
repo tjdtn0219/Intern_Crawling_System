@@ -1,9 +1,9 @@
 import scrapy
 from scrapy.selector import Selector
 import re
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class SUSESpider(SpiderTest):
+class SUSESpider(Wiki_Spider):
     name = "suse"
     start_urls = [
         'https://en.wikipedia.org/wiki/SUSE_Linux',

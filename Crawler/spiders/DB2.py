@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.selector import Selector
-from Crawler.spiders.test_inherit import SpiderTest
+from Crawler.spiders.Wiki_Spider import Wiki_Spider
 
-class DB2Spider(SpiderTest):
+class DB2Spider(Wiki_Spider):
     name = "db2"
     start_urls = [
         'https://en.wikipedia.org/wiki/IBM_Db2',
