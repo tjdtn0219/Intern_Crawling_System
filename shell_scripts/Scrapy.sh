@@ -2,14 +2,14 @@
 
 Scapy_CMD="scrapy crawl"
 Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/"
-FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler/new_data/"
+FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler/new_data1/"
 
 LIST_OS_RETRY=()
 
 #Initial
 cd ${Project_Path}
 source .venv/bin/activate && \
-mkdir new_data ; cd new_data
+mkdir ${FILE_PATH} ; cd ${FILE_PATH}
 
 #LOOP
 while read OS_NAME; do
