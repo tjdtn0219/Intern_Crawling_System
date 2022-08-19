@@ -25,13 +25,13 @@ class AltibaseSpider(scrapy.Spider):
         print("==========")
         print(element.get_attribute('innerHTML'))
 
-        # table_rows = Selector(text = element.get_attribute('innerHTML')).xpath('.//td/a/text()').getall()
+        table_rows = Selector(text = element.get_attribute('innerHTML')).xpath('.//td/a/text()').getall()
 
-        # result = dict()
+        result = dict()
 
-        # for row in table_rows:
-        #     result['Version'] = row.strip()
-        #     yield result
+        for row in table_rows:
+            result['Version'] = row.strip()
+            yield result
 
         driver.quit()
 

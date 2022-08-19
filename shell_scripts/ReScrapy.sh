@@ -1,6 +1,6 @@
 #! /bin/bash
 
-Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/"
+Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/"
 
 #Initial
 cd ${Project_Path}

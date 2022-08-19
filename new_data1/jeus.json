@@ -7,5 +7,6 @@
 {"Version": "6.0", "Date": "2007/06/01"},
 {"Version": "7.0", "Date": "2012/06/01"},
 {"Version": "8.0", "Date": "2013/08/01"},
-{"Version": "8.5", "Date": "2020/02/01"}
+{"Version": "8.5", "Date": "2020/02/01"},
+{"Version": "BREAK_LINE", "Date": "BREAK_LINE"}
 ]

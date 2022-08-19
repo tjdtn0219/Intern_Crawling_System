@@ -11,7 +11,7 @@ BOT_NAME = 'Crawler'
 
 SPIDER_MODULES = ['Crawler.spiders']
 NEWSPIDER_MODULE = 'Crawler.spiders'
-CHROME_DRIVER_PATH = '/var/lib/jenkins/Projects/LSSWARE_Crawler/chromedriver'
+CHROME_DRIVER_PATH = '/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/chromedriver'
 
 VERSION_HEADS = ["version", "name", "release", "series", "general availability"]
 DATE_HEADS = ["first release", "release date", "date of issue", "latest release"]

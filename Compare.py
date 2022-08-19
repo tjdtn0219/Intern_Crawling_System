@@ -2,7 +2,7 @@ import json
 from DateFormat import Change_Date_Format, compare_others
 from datetime import datetime
 
-path = "/var/lib/jenkins/Projects/LSSWARE_Crawler/"
+path = "/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/"
 
 
 def Read_File(file_name):

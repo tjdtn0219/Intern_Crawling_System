@@ -1,8 +1,8 @@
 #! /bin/bash
 
 Scapy_CMD="scrapy crawl"
-Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/"
-FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler/new_data1/"
+Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/"
+FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/new_data1/"
 
 LIST_OS_RETRY=()
 
