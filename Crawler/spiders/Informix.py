@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 import re
+from scrapy.utils.project import get_project_settings
 
 class InformixSpider(scrapy.Spider):
     name = "informix"
+    settings = get_project_settings()
     start_urls = [
-        'https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en',
+        settings['URLS']['INFORMIX']
     ]
 
     def parse(self, response):

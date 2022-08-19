@@ -1,12 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
-
+from scrapy.utils.project import get_project_settings
 
 class OracleLinuxSpider(Wiki_Spider):
     name = "mssql"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2017',
+        settings['URLS']['MSSQL']
     ]
 
 

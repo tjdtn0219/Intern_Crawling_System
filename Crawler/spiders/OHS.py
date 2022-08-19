@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class OHSSpider(scrapy.Spider):
     name = "ohs"
+    settings = get_project_settings()
     start_urls = [
-        'https://www.oracle.com/kr/middleware/technologies/webtier-downloads.html',
+        settings['URLS']['OHS']
     ]
 
 

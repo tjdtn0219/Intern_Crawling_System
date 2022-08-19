@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 import re
+from scrapy.utils.project import get_project_settings
+
 class WebLogicSpider(scrapy.Spider):
     name = "websphere"
-
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server',
+        settings['URLS']['WEBSPHERE']
     ]
 
 

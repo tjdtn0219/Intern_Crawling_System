@@ -2,11 +2,13 @@ import scrapy
 from scrapy.selector import Selector
 import re
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class SUSESpider(Wiki_Spider):
     name = "suse"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/SUSE_Linux',
+        settings['URLS']['SUSE']
     ]
 
 

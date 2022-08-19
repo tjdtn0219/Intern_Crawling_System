@@ -5,16 +5,16 @@ from selenium import webdriver
 
 class SybaseSpider(scrapy.Spider):
     name = "sybase"
+    settings = get_project_settings()
     start_urls = [
-        'https://infocenter.sybase.com/help/index.jsp?noscript=1',
+        settings['URLS']['SYBASE']
     ]
 
 #/html/body/table/tbody/tr[3]
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = SybaseSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

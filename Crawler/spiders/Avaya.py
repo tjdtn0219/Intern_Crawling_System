@@ -1,11 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class AvayaSpider(scrapy.Spider):
     name = 'avaya'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://www.devconnectprogram.com/site/global/products_resources/avaya_aura_communication_manager/releases/10_1/index.gsp',
+        settings['URLS']['AVAYA']
     ]
 
     def parse(self, response):

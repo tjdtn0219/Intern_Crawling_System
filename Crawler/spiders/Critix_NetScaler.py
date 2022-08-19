@@ -1,11 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class Critix_NetScalerSpider(scrapy.Spider):
     name = 'critix'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://www.citrix.com/downloads/citrix-adc/firmware/'
+        settings['URLS']['CRITIX']
     ]
 
 

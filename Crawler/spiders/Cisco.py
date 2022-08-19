@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class Cisco(scrapy.Spider):
     name = "cisco"
+    settings = get_project_settings()
     start_urls = [
-        'https://www.cisco.com/c/ko_kr/support/ios-nx-os-software/index.html#allDevices',
+        settings['URLS']['CISCO']
     ]
 
     def parse(self, response):

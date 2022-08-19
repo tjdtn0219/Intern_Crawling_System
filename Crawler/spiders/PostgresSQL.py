@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class PostgresSQLSpider(Wiki_Spider):
     name = "postgressql"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/PostgreSQL',
+        settings['URLS']['POSTGRES_SQL']
     ]
 
     # def parse(self, response):

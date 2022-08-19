@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class DB2Spider(Wiki_Spider):
     name = "db2"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/IBM_Db2',
+        settings['URLS']['DB2']
     ]
 
 

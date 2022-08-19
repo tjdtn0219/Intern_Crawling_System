@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class ApacheSpider(Wiki_Spider):
     name = "apache"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/Apache_HTTP_Server',
+        settings['URLS']['APACHE']
     ]
 
     # def parse(self, response):

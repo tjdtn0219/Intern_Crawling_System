@@ -2,11 +2,13 @@ import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
 import re
+from scrapy.utils.project import get_project_settings
 
 class WebLogicSpider(Wiki_Spider):
     name = "weblogic"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/Oracle_WebLogic_Server',
+        settings['URLS']['WEBLOGIC']
     ]
 
 

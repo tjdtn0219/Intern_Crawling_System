@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class IIS_Spider(scrapy.Spider):
     name = "iis"
+    settings = get_project_settings()
     start_urls = [
-        'https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis',
+        settings['URLS']['IIS']
     ]
 
     def parse(self, response):

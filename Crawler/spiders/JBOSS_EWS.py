@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class JBOSS_EWS_Spider(scrapy.Spider):
     name = "jbossews"
+    settings = get_project_settings()
     start_urls = [
-        'https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.6',
+        settings['URLS']['JBOSS_EWS']
     ]
 
     def parse(self, response):

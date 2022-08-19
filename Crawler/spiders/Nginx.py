@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class NginxSpider(scrapy.Spider):
     name = "nginx"
+    settings = get_project_settings()
     start_urls = [
-        'http://nginx.org/en/download.html',
+        settings['URLS']['NGINX']
     ]
 
 

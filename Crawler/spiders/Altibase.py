@@ -6,30 +6,32 @@ from selenium.webdriver.common.by import By
 
 class AltibaseSpider(scrapy.Spider):
     name = 'altibase'
-
+    settings = get_project_settings()
     start_urls = [
-        'http://support.altibase.com/kr/product'
+        settings['URLS']['ALTIBASE']
     ]
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = AltibaseSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)
         driver.get(url)
-        driver.implicitly_wait(20)
-        
+        driver.implicitly_wait(10)
+        # //*[@id="productVersion"]/div/table/tbody/tr
+   
         element = driver.find_element(By.XPATH, "/html/body/div[3]/div[2]/div[2]/div[3]/div/table/tbody/tr")
+        print("==========")
+        print(element.get_attribute('innerHTML'))
 
-        table_rows = Selector(text = element.get_attribute('innerHTML')).xpath('.//td/a/text()').getall()
+        # table_rows = Selector(text = element.get_attribute('innerHTML')).xpath('.//td/a/text()').getall()
 
-        result = dict()
+        # result = dict()
 
-        for row in table_rows:
-            result['Version'] = row.strip()
-            yield result
+        # for row in table_rows:
+        #     result['Version'] = row.strip()
+        #     yield result
 
         driver.quit()
 

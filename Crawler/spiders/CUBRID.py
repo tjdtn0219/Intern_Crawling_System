@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class CUBRIDSpider(Wiki_Spider):
     name = "cubrid"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/CUBRID',
+        settings['URLS']['CUBRID']
     ]
 
     # def parse(self, response):

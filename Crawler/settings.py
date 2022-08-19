@@ -13,6 +13,57 @@ SPIDER_MODULES = ['Crawler.spiders']
 NEWSPIDER_MODULE = 'Crawler.spiders'
 CHROME_DRIVER_PATH = '/var/lib/jenkins/Projects/LSSWARE_Crawler/chromedriver'
 
+VERSION_HEADS = ["version", "name", "release", "series", "general availability"]
+DATE_HEADS = ["first release", "release date", "date of issue", "latest release"]
+LIST_FORMATS = [
+        "%B %d, %Y", "%d %B %Y", "%Y-%m-%d", "%B %Y", "%Y/%m/%d", "%b %Y", "%d/%m/%Y",
+        "%m/%d/%Y", "%Y.%m", "%B\u00a0%d, %Y", "%d\u00a0%B %Y", "%Y"
+    ]
+
+URLS = {
+    'AIX' : 'https://en.wikipedia.org/wiki/IBM_AIX',
+    'ALTEON' : 'https://portals.radware.com/releasenotes/APSolute_Vision_Release_Notes_4_30/',
+    'ALTIBASE' : 'http://support.altibase.com/kr/product',
+    'APACHE' : 'https://en.wikipedia.org/wiki/Apache_HTTP_Server',
+    'AVAYA' : 'https://www.devconnectprogram.com/site/global/products_resources/avaya_aura_communication_manager/releases/10_1/index.gsp',
+    'CENTOS' : 'https://en.wikipedia.org/wiki/CentOS',
+    'CISCO' : 'https://www.cisco.com/c/ko_kr/support/ios-nx-os-software/index.html#allDevices',
+    'CRITIX' : 'https://www.citrix.com/downloads/citrix-adc/firmware/',
+    'CUBRID' : 'https://en.wikipedia.org/wiki/CUBRID',
+    'DB2' : 'https://en.wikipedia.org/wiki/IBM_Db2',
+    'EXTREME' : 'https://www.extremenetworks.com/support/release-notes/product/extremexos-software/',
+    'F5' : 'https://support.f5.com/csp/article/K33062581',
+    'HP_UX' : 'https://en.wikipedia.org/wiki/HP-UX',
+    'IIS' : 'https://docs.microsoft.com/en-us/lifecycle/products/internet-information-services-iis',
+    'INFORMIX' : 'https://www.cursor-distribution.de/en/ibm-software/support-informix/informix-lifecycle-tab-en',
+    'IPLANET' : 'https://en.wikipedia.org/wiki/Oracle_iPlanet_Web_Server',
+    'JBOSS_EWS' : 'https://access.redhat.com/documentation/en-us/red_hat_jboss_web_server/5.6',
+    'JBOSS' : 'https://developers.redhat.com/products/eap/download',
+    'JEUS' : 'https://en.wikipedia.org/wiki/JEUS',
+    'JUNIPER' : 'https://support.juniper.net/support/eol/software/junos/',
+    'MARIADB' : 'https://en.wikipedia.org/wiki/MariaDB',
+    'MSSQL' : 'https://en.wikipedia.org/wiki/History_of_Microsoft_SQL_Server#SQL_Server_2017',
+    'MYSQL' : 'https://en.wikipedia.org/wiki/MySQL',
+    'NGINX' : 'http://nginx.org/en/download.html',
+    'OHS' : 'https://www.oracle.com/kr/middleware/technologies/webtier-downloads.html',
+    'ORACLEDB' : 'https://en.wikipedia.org/wiki/Oracle_Database',
+    'ORACLELINUX' : 'https://en.wikipedia.org/wiki/Oracle_Linux',
+    'POSTGRES_SQL' : 'https://en.wikipedia.org/wiki/PostgreSQL',
+    'PROLINUX' : 'https://technet.tmaxsoft.com/ko/front/download/findDownloadList.do?cmProductCode=0702',
+    'REDHAT' : 'https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux',
+    'RESIN' : 'https://caucho.com/resin-4.0/changes/release-notes.xtp',
+    'SOLARIS' : 'https://en.wikipedia.org/wiki/Oracle_Solaris',
+    'SUSE' : 'https://en.wikipedia.org/wiki/SUSE_Linux',
+    'SYBASE' : 'https://infocenter.sybase.com/help/index.jsp?noscript=1',
+    'SYBASEIQ' : 'https://infocenter.sybase.com/help/index.jsp?noscript=1',
+    'TIBERO' : 'https://technet.tmaxsoft.com/ko/front/download/findDownloadList.do?cmProductCode=0301',
+    'TOMCAT' : 'https://en.wikipedia.org/wiki/Apache_Tomcat',
+    'WEBLOGIC' : 'https://en.wikipedia.org/wiki/Oracle_WebLogic_Server',
+    'WEBSPHERE' : 'https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server',
+    'WEBTOB' : 'https://technet.tmaxsoft.com/ko/front/download/findDownloadList.do?cmProductCode=0102',
+    'WINDOWS' : 'https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions',
+
+}
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Crawler (+http://www.yourdomain.com)'
 

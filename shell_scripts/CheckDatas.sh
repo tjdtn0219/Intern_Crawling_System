@@ -1,7 +1,7 @@
 #! /bin/bash
 
 Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/"
-Data_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/new_data/"
+Data_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler/new_data1/"
 
 #Initial
 cd ${Project_Path}

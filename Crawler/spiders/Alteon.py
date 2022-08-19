@@ -3,18 +3,17 @@ from scrapy.utils.project import get_project_settings
 from selenium import webdriver
 import re
 
-class AvayaSpider(scrapy.Spider):
+class AlteonSpider(scrapy.Spider):
     name = 'alteon'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://portals.radware.com/releasenotes/APSolute_Vision_Release_Notes_4_30/',
+        settings['URLS']['ALTEON']
     ]
 
     def parse(self, response):
         url = response.url + "#page/APSoluteVision_4.30_RN%2FAPSoluteVision_4.30_RN.1.12.html%23"
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = AlteonSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

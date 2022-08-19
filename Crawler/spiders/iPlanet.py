@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class iPlanetSpider(Wiki_Spider):
     name = "iplanet"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/Oracle_iPlanet_Web_Server',
+        settings['URLS']['IPLANET']
     ]
 
     # def parse(self, response):

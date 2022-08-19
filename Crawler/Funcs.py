@@ -2,14 +2,13 @@
 from scrapy.selector import Selector
 from Crawler.items import ReleaseItem
 from datetime import datetime
+from scrapy.utils.project import get_project_settings
 
 class Funcs:
-    Version_heads = ["version", "name", "release", "series", "general availability"]
-    Date_heads = ["first release", "release date", "date of issue", "latest release"]
-    list_formats = [
-            "%B %d, %Y", "%d %B %Y", "%Y-%m-%d", "%B %Y", "%Y/%m/%d", "%b %Y", "%d/%m/%Y",
-            "%m/%d/%Y", "%Y.%m", "%B\u00a0%d, %Y", "%d\u00a0%B %Y", "%Y"
-        ]
+    settings = get_project_settings()
+    Version_heads = settings['VERSION_HEADS']
+    Date_heads = settings['DATE_HEADS']
+    list_formats = settings['LIST_FORMATS']
 
     def listToString(str_list):
         result = ""
@@ -36,3 +35,10 @@ class Funcs:
             except ValueError:
                 continue
         return None
+
+    def str_to_float(str):
+        try:
+            f_val = float(str)
+            return f_val
+        except ValueError:
+            return None

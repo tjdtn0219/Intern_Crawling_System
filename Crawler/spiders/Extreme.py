@@ -7,16 +7,15 @@ import re
 
 class ExtremeSpider(scrapy.Spider):
     name = 'extreme'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://www.extremenetworks.com/support/release-notes/product/extremexos-software/'
+        settings['URLS']['EXTREME']
     ]
 #//*[@id="DataTables_Table_0"]/tbody/tr[1]/td[1]
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = ExtremeSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

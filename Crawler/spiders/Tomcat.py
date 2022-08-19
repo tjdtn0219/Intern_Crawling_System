@@ -1,10 +1,12 @@
 import scrapy
 from scrapy.selector import Selector
+from scrapy.utils.project import get_project_settings
 
 class TomcatSpider(scrapy.Spider):
     name = "tomcat"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/Apache_Tomcat',
+        settings['URLS']['TOMCAT']
     ]
 
 

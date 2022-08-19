@@ -5,16 +5,15 @@ from selenium import webdriver
 
 class JBOSS_Spider(scrapy.Spider):
     name = 'jboss'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://developers.redhat.com/products/eap/download',
+        settings['URLS']['JBOSS']
     ]
 
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = JBOSS_Spider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

@@ -5,17 +5,16 @@ from selenium import webdriver
 
 class JuniperSpider(scrapy.Spider):
     name = 'juniper'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://support.juniper.net/support/eol/software/junos/'
+        settings['URLS']['JUNIPER']
     ]
 
 
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = JuniperSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

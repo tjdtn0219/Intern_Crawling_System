@@ -6,16 +6,15 @@ from selenium.webdriver.common.by import By
 
 class F5Spider(scrapy.Spider):
     name = 'f5'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://support.f5.com/csp/article/K33062581'
+        settings['URLS']['F5']
     ]
 
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = F5Spider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)

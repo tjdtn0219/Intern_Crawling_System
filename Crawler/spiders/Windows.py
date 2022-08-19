@@ -1,13 +1,14 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
-
+from scrapy.utils.project import get_project_settings
 
 class WindowsSpider(Wiki_Spider):
     ##윈도우 서버
     name = "windows"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions',
+        settings['URLS']['WINDOWS']
     ]
 
 #     def parse(self, response):

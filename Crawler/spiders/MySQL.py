@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.selector import Selector
 from Crawler.spiders.Wiki_Spider import Wiki_Spider
+from scrapy.utils.project import get_project_settings
 
 class MySQLpider(Wiki_Spider):
     name = "mysql"
+    settings = get_project_settings()
     start_urls = [
-        'https://en.wikipedia.org/wiki/MySQL',
+        settings['URLS']['MYSQL']
     ]
 
     # def parse(self, response):

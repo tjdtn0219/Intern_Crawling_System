@@ -5,16 +5,15 @@ from selenium import webdriver
 
 class ResinSpider(scrapy.Spider):
     name = 'resin'
-
+    settings = get_project_settings()
     start_urls = [
-        'https://caucho.com/resin-4.0/changes/release-notes.xtp',
+        settings['URLS']['RESIN']
     ]
 
     def parse(self, response):
         url = response.url
 
-        settings = get_project_settings()
-        driver_path = settings['CHROME_DRIVER_PATH']
+        driver_path = ResinSpider.settings['CHROME_DRIVER_PATH']
         options = webdriver.ChromeOptions()
         options.headless = True
         driver = webdriver.Chrome(driver_path, options=options)
