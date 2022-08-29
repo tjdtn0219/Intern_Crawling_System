@@ -2,6 +2,7 @@ import scrapy
 from scrapy.selector import Selector
 import re
 from scrapy.utils.project import get_project_settings
+from Crawler.Funcs import Funcs
 
 class WebLogicSpider(scrapy.Spider):
     name = "websphere"
@@ -25,6 +26,6 @@ class WebLogicSpider(scrapy.Spider):
         if len(version_list) == len(date_list):
             for i in range(len(version_list)):
                 result['Version'] = version_list[i].strip()
-                result['Date'] = date_list[i].strip()
+                result['Date'] = Funcs.date_to_str(date_list[i].strip())
                 yield result
                 

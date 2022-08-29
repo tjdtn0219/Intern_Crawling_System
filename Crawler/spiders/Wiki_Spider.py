@@ -14,7 +14,7 @@ class Wiki_Spider(scrapy.Spider):
         tables = ScrapyFuncs.select_tables(tables_sources)
         
         if len(tables) == 0:
-            # scrapy from catalog, not from tables
+            # scrapy from catalog, which is not from tables
             for item in ScrapyFuncs.parsing_catalog(response):
                 yield item
             pass

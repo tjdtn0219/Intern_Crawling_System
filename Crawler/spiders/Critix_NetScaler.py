@@ -17,6 +17,7 @@ class Critix_NetScalerSpider(scrapy.Spider):
             string = item.strip()
             if string:
                 result['Version'] = string
+                result['Date'] = None
                 yield result
 
                 

@@ -2,6 +2,7 @@ import scrapy
 from scrapy.selector import Selector
 import re
 from scrapy.utils.project import get_project_settings
+from Crawler.Funcs import Funcs
 
 class InformixSpider(scrapy.Spider):
     name = "informix"
@@ -25,5 +26,5 @@ class InformixSpider(scrapy.Spider):
                 print(name + " "+version)
                 print(date)
                 result['Version'] = name + " " + version
-                result['Date'] = date
+                result['Date'] = Funcs.date_to_str(date)
                 yield result

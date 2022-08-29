@@ -3,6 +3,7 @@ from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from Crawler.Funcs import Funcs
 
 class F5Spider(scrapy.Spider):
     name = 'f5'
@@ -30,7 +31,7 @@ class F5Spider(scrapy.Spider):
         for row in table_rows:
             if Selector(text=row).xpath('.//td[1]/strong/text()').get():
                 result['Version'] = Selector(text=row).xpath('.//td[1]/strong/text()').get().strip()
-                result['Date'] = Selector(text=row).xpath('.//td[4]/strong/text()').get().strip()
+                result['Date'] = Funcs.date_to_str(Selector(text=row).xpath('.//td[4]/strong/text()').get().strip())
                 yield result
         driver.quit()
                 

@@ -2,6 +2,7 @@ import scrapy
 from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
 from selenium import webdriver
+from Crawler.Funcs import Funcs
 
 class JuniperSpider(scrapy.Spider):
     name = 'juniper'
@@ -29,7 +30,7 @@ class JuniperSpider(scrapy.Spider):
         result = dict()
         for row in table_rows:
             result['Version'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
-            result['Date'] = Selector(text=row).xpath('.//td[2]/text()').get().strip()
+            result['Date'] = Funcs.date_to_str(Selector(text=row).xpath('.//td[2]/text()').get().strip())
             yield result
 
         driver.quit()

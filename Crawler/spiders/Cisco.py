@@ -17,5 +17,6 @@ class Cisco(scrapy.Spider):
             # print(item.strip())
             if item.strip():
                 result['Version']=item.strip()
+                result['Date'] = None
                 yield result
         

@@ -31,6 +31,7 @@ class SybaseIQSpider(scrapy.Spider):
             version = scrapy.Selector(text=item).xpath('.//td/b/a/text()').get().strip()
             if "Japanese" in version and "Sybase IQ" in version:
                 result['Version'] = version.replace("Japanese", "").strip("() -")
+                result['Date'] = None
                 yield result
 
         driver.quit()

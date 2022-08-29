@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
+from Crawler.Funcs import Funcs
 
 class IIS_Spider(scrapy.Spider):
     name = "iis"
@@ -16,5 +17,5 @@ class IIS_Spider(scrapy.Spider):
 
         for row in table_rows:
             result['Version'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
-            result['Date'] = Selector(text=row).xpath('.//td[2]/local-time/text()').get().strip().split('T')[0]
+            result['Date'] = Funcs.date_to_str(Selector(text=row).xpath('.//td[2]/local-time/text()').get().strip().split('T')[0])
             yield result

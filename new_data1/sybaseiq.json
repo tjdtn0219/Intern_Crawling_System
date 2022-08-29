@@ -1,7 +1,7 @@
 [
-{"Version": "SAP Sybase IQ 16.0 SP03"},
-{"Version": "Sybase IQ 15.4"},
-{"Version": "Sybase IQ 15.3"},
-{"Version": "Sybase IQ 15.2"},
-{"Version": "Sybase IQ 15.1"}
+{"Version": "SAP Sybase IQ 16.0 SP03", "Date": null},
+{"Version": "Sybase IQ 15.4", "Date": null},
+{"Version": "Sybase IQ 15.3", "Date": null},
+{"Version": "Sybase IQ 15.2", "Date": null},
+{"Version": "Sybase IQ 15.1", "Date": null}
 ]

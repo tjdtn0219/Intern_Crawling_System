@@ -2,6 +2,7 @@ import scrapy
 from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
 from selenium import webdriver
+from Crawler.Funcs import Funcs
 
 class JBOSS_Spider(scrapy.Spider):
     name = 'jboss'
@@ -32,7 +33,7 @@ class JBOSS_Spider(scrapy.Spider):
             date = Selector(text=item).xpath('.//div[1]/div[3]/span/text()').get()
             if "EAP" not in version:
                 result['Version'] = version
-                result['Date'] = date
+                result['Date'] = Funcs.date_to_str(date)
                 yield result
             
         driver.quit()

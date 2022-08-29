@@ -17,4 +17,5 @@ class NginxSpider(scrapy.Spider):
 
         for item in items:
             result['Version'] = item.strip()
+            result['Date'] = None
             yield result

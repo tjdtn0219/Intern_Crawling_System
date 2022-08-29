@@ -4,6 +4,7 @@ from scrapy.utils.project import get_project_settings
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import re
+from Crawler.Funcs import Funcs
 
 class ExtremeSpider(scrapy.Spider):
     name = 'extreme'
@@ -30,7 +31,7 @@ class ExtremeSpider(scrapy.Spider):
                 #result['Date'] = Selector(text=row).xpath('.//td[1]/text()').get().strip()
                 name = Selector(text=row).xpath('.//td[2]/a/text()').get().strip()
                 result['Version'] = name.replace("Release Notes", "").strip()
-                result['Date'] = Selector(text=row).xpath('.//td[3]/text()').get().strip()
+                result['Date'] = Funcs.date_to_str(Selector(text=row).xpath('.//td[3]/text()').get().strip())
                 yield result
 
         driver.quit()

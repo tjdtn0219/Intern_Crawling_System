@@ -18,7 +18,7 @@ def Read_Json(file_name, type):
     list_order = Read_File("List_Order")
     list_json = []
     if type == "new":
-        with open(path + "new_data/" + file_name+ ".json") as json_f:
+        with open(path + "new_data1/" + file_name+ ".json") as json_f:
             data = json.load(json_f)
             list_json = data
                

@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.selector import Selector
 from scrapy.utils.project import get_project_settings
+from Crawler.Funcs import Funcs
 
 class TomcatSpider(scrapy.Spider):
     name = "tomcat"
@@ -21,5 +22,5 @@ class TomcatSpider(scrapy.Spider):
             version = Selector(text=row).xpath('.//td[1]/@data-sort-value').get().strip()
             date = Selector(text=row).xpath('.//td[5]/text()').get().strip()
             result['Version'] = version
-            result['Date'] = date
+            result['Date'] = Funcs.date_to_str(date)
             yield result

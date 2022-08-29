@@ -26,6 +26,7 @@ class Selenium_Spider(scrapy.Spider):
             version_value = re.sub(r'[^0-9.x]', '', str(item))
             if version_value:
                 result['Version'] = item
+                result['Date'] = None
                 yield result
 
         driver.quit()

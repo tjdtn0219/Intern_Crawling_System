@@ -44,12 +44,17 @@ class ScrapyFuncs:
 
     def find_col_idx(table_heads, str_list):
         col_idx = []
+        # print(table_heads)
         for i, head in enumerate(table_heads):
             head_list = Selector(text=head).xpath('.//text()').getall()
             head = Funcs.listToString(head_list)
+            
             print(head)
             for str in str_list:
                 if str in head.lower():
+                    print("--1==")
+                    print(head.lower())
+                    print(i)
                     col_idx.append(i)
 
         return col_idx
@@ -116,7 +121,8 @@ class ScrapyFuncs:
         version_col_idx = ScrapyFuncs.find_col_idx(table_heads, Funcs.Version_heads)
         date_col_idx = ScrapyFuncs.find_col_idx(table_heads, Funcs.Date_heads)
 
-        print("===========")
+        print("===========12")
+        print(version_col_idx)
         print(date_col_idx)
 
         ScrapyFuncs.delete_table_heads(table_rows)
