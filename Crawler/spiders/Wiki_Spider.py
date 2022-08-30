@@ -11,7 +11,7 @@ class Wiki_Spider(scrapy.Spider):
         Break['Date'] = "BREAK_LINE"
         tables_sources = response.xpath('//table[contains(@class, "wikitable")]').getall()
 
-        tables = ScrapyFuncs.select_tables(tables_sources)
+        tables = ScrapyFuncs.select_tables(tables_sources) #Find tables and select proper tables
         
         if len(tables) == 0:
             # scrapy from catalog, which is not from tables

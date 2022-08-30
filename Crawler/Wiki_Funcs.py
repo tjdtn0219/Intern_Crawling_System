@@ -7,8 +7,11 @@ import scrapy
 
 class ScrapyFuncs:
 
+    #@arguments
+    #   table_row : each table row for HTML code
+    #   version_col_idx : column index located version data
     def parsing_version_in_row(table_row, version_col_idx):
-
+        #Extract version from table row(HTML)
         idx = version_col_idx[0] + 1
         if Funcs.isStrEmpty(Selector(text=table_row).xpath('.//tr/*[' + str(idx) + ']/text()').get()):
             version = Selector(text=table_row).xpath('.//tr/*[' + str(idx) + ']/text()').get().strip()
@@ -21,8 +24,14 @@ class ScrapyFuncs:
         
         return version
 
+    #@arguments
+    #   table_row : each table row for HTML code
+    #   version_col_idx : column index located date data
+    #   rowspan_is_flag : flag, if table has one or more rowspans front of date column
+    #   rowspan_flag : flag, if extracted table row has rowspan front of date column
+    #   *rowspan : It is issue stuff that makes date column index not unified*
     def parsing_date_in_row(table_row, date_col_idx, rowspan_is_flag, rowspan_flag):
-
+        #Extract date from table row(HTML)
         if rowspan_is_flag:
             print("TAG")
             if rowspan_flag:
@@ -42,6 +51,9 @@ class ScrapyFuncs:
 
         return date
 
+    #@arguments
+    #   table_heads : It is table head which is used to find column index for 'version' or 'date'
+    #   version_col_idx : str_list can be VERSION_HEADS or DATE_HEADS in Crawler/settings.py
     def find_col_idx(table_heads, str_list):
         col_idx = []
         # print(table_heads)
@@ -59,11 +71,13 @@ class ScrapyFuncs:
 
         return col_idx
 
-    def delete_table_heads(table_rows):                
+    def delete_table_heads(table_rows):
+        #It removes all table heads and then leave only table rows to extract             
         while len(Selector(text=table_rows[0]).xpath('.//td').getall()) == 0:
             del table_rows[0]
 
     def select_tables(tables):
+        #It checks if table exists, and filter if it is proper table.
         table_list = []
 
         for table in tables:
@@ -80,6 +94,7 @@ class ScrapyFuncs:
                     
 
     def is_rowspan(table_rows, date_col_idx):
+        #It checks if table has row span#
         is_flag = False
         for table_row in table_rows:
             for i, col in enumerate(Selector(text=table_row).xpath('.//tr/*').getall()):
@@ -95,6 +110,7 @@ class ScrapyFuncs:
         return is_flag
 
     def is_horizon_table(table):
+        #It checks if table is horizon or vertical#
         table_rows = Selector(text=table).xpath('.//tbody/tr').getall()
         if len(table_rows) == 2:
             return True
@@ -102,6 +118,7 @@ class ScrapyFuncs:
             return False
 
     def parsing_table(table):
+        #Parse 'version' and 'date' from table#
         table_rows = Selector(text=table).xpath('.//tbody/tr').getall()
 
         if len(table_rows) > 2:
@@ -112,7 +129,8 @@ class ScrapyFuncs:
             for item in ScrapyFuncs.parsing_horizon_table(table):
                 yield item
 
-    def parsing_verticle_table(table):          
+    def parsing_verticle_table(table): 
+        #parse 'version' and 'date' from verticle table#     
         release = ReleaseItem()
 
         table_rows = Selector(text=table).xpath('.//tbody/tr').getall()
@@ -145,7 +163,8 @@ class ScrapyFuncs:
                 # release['Date'] = date.replace('\u00a0', " ")
                 yield release
 
-    def parsing_horizon_table(table):            
+    def parsing_horizon_table(table):    
+        #parse 'version' and 'date' from horizon table#        
         release = ReleaseItem()
 
         table_rows = Selector(text=table).xpath('.//tbody/tr').getall()

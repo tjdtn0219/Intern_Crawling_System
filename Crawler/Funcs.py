@@ -11,12 +11,14 @@ class Funcs:
     list_formats = settings['LIST_FORMATS']
 
     def listToString(str_list):
+        #If columns of tabel head is like "<th>Release</><th>Date</>, it makes like "Release Date"
         result = ""
         for s in str_list:
             result += s.strip() + " "
         return result.strip()
 
     def isStrEmpty(str):
+        #Empty string is "\n", "", " ",,,and so on. Check if str is empty.
         if str is None:
             return False
         
