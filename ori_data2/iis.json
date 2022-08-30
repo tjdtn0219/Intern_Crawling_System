@@ -1,0 +1,14 @@
+[
+{"Version": "IIS 10 on Windows Server 2019", "Date": "2018-11-13"},
+{"Version": "IIS 10 on Windows Server (Semi-Annual Channel)", "Date": "2017-10-17"},
+{"Version": "IIS 10 on Windows Server 2016", "Date": "2016-10-15"},
+{"Version": "IIS 10 on Windows 10, Enterprise and Education", "Date": "2015-07-29"},
+{"Version": "IIS 10 on Windows 10 Pro", "Date": "2015-07-29"},
+{"Version": "IIS 8.5 on Windows Server 2012 R2", "Date": "2013-11-25"},
+{"Version": "IIS 8.5 on Windows 8.1", "Date": "2013-11-13"},
+{"Version": "IIS 8 on Windows Server 2012", "Date": "2012-10-30"},
+{"Version": "IIS 7.5 on Windows 7*", "Date": "2009-10-22"},
+{"Version": "IIS 7.5 on Windows Server 2008 R2*", "Date": "2009-10-22"},
+{"Version": "IIS 7.0 on Windows Server 2008*", "Date": "2008-05-06"},
+{"Version": "IIS 6.0 on Windows Server 2003", "Date": "2003-05-28"}
+]

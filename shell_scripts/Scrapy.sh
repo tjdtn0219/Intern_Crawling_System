@@ -2,7 +2,7 @@
 
 Scapy_CMD="scrapy crawl"
 Project_Path="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/"
-FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/new_data1/"
+FILE_PATH="/var/lib/jenkins/Projects/LSSWARE_Crawler_v1/new_data/"
 
 LIST_OS_RETRY=()
 

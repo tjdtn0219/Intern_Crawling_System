@@ -27,6 +27,7 @@ class Funcs:
                 return True
 
     def date_to_str(str_date):
+        ###This is unify various date format to only "YYYY/MM/DD" format.###
         for format in Funcs.list_formats:
             try:
                 date_obj = datetime.strptime(str_date, format)
@@ -35,6 +36,13 @@ class Funcs:
             except ValueError:
                 continue
         return None
+
+    def str_to_date(str):
+        ###This is to convert "YYYY/MM/DD" to the type of datetime###
+        format = "%Y/%m/%d"
+        date_obj = datetime.strptime(str, format)
+        return date_obj.date()
+
 
     def str_to_float(str):
         try:

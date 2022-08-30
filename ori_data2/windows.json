@@ -1,0 +1,16 @@
+[
+{"Version": "Windows NT 3.1", "Date": "1993-07-27"},
+{"Version": "Windows NT 3.5", "Date": "1994-09-20"},
+{"Version": "Windows NT 3.51", "Date": "1995-05-29"},
+{"Version": "Windows NT 4.0", "Date": "1996-07-29"},
+{"Version": "Windows 2000", "Date": "2000-02-17"},
+{"Version": "Windows Server 2003", "Date": "2003-04-24"},
+{"Version": "Windows Server 2003 R2", "Date": "2005-12-06"},
+{"Version": "Windows Server 2008", "Date": "2008-02-27"},
+{"Version": "Windows Server 2008 R2", "Date": "2009-10-22"},
+{"Version": "Windows Server 2012", "Date": "2012-09-04"},
+{"Version": "Windows Server 2012 R2", "Date": "2013-10-17"},
+{"Version": "Windows Server 2016", "Date": "2016-10-12"},
+{"Version": "Windows Server 2019", "Date": "2018-11-13"},
+{"Version": "Windows Server 2022", "Date": "2021-08-18"}
+]
