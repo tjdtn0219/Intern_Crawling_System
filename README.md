@@ -1,4 +1,15 @@
-# LSSWARE_Crawler
+# Auto Crawler System
+
+## Purpose
+- Scrape OS releases data from web-sites, and detect and send a mail if new release version is update.
+
+## System Flow Diagram
+<img src="https://github.com/tjdtn0219/LSSWARE_Crawler/assets/76704436/0f6f9599-478e-46e5-8495-1e81997d3747">
+
+## Jenkins Pipeline Details
+<img src="https://github.com/tjdtn0219/LSSWARE_Crawler/assets/76704436/420d85f4-4a67-4c4e-963f-4e57eab12634">
+
+
 
 ## Enviroment Setting
 
